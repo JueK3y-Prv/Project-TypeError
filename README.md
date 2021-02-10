@@ -3,7 +3,8 @@
 ###### _This is a closed project, which is created by the order of a client. The German copyright regulations apply._
 
 ## What is the LVM website?
-The website offers clothing products (shoes) for resale. In this project, for this reason, a visually striking website should be created, which should be fully functional and contain (at least) the following features:
+The website offers clothing products (shoes) for resale. In this project, for this reason,
+<br>a visually striking website should be created, which should be fully functional and contain (at least) the following features:
 - Landing Page
 - Web store
 - Contact us
