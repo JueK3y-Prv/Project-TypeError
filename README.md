@@ -25,7 +25,7 @@ The project is currently at the end of the design phase.
 <br>
 
 ## What is the URL of the website?
-This question has 3 answers. Currently you can access the site via the [GitHub Pages](https://juek3y.github.io/project-lvm/) or the [Netlify link](https://lvm.netlify.app/). However, I want to create a subdomain for juek3y.com so that the site is easier to reach and still includes all the features.
+This question has 3 answers. Currently you can access the site via the [GitHub Pages](https://juek3y.github.io/project-lvm/) or the [Netlify link](https://type-error.netlify.app). However, I want to create a subdomain for juek3y.com so that the site is easier to reach and still includes all the features.
 <br>As above, I will update this article as soon as there is a new link.
 <br>Please note that the website is still a work in progress. Legal information will therefore be filled in with placeholders for now. You may also not get a hint for cookies, although some may already be in use. So assume that the website uses cookies.
 
