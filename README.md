@@ -5,17 +5,23 @@
 ## What is the LVM website?
 The website offers clothing products (shoes) for resale. In this project, for this reason,
 <br>a visually striking website should be created, which should be fully functional and contain (at least) the following features:
-- Landing Page
+- Landing Page (Index)
 - Web store
-- Contact us
-- Legal
+- About LVM - page
+- Contact (per Email)
+- Legal (AGB / Terms)
 <br>
 
 ## When will the website be published?
-Since the project has only just started, it may be some time before a schedule can even emerge. Since I (JueK3y) also have 2 other projects ([IAC](https://github.com/JueK3y/Instagram-automated-commenting) & [juek3y.com](https://github.com/JueK3y/juek3y.com)) going on the side, a short term completion (for example in 2 weeks) will not be foreseeable.
-<br>If there is an exact date, this paragraph will be updated _(*)_. 
+The process of the site is divided into 4 points.
+- Planning
+- Design phase
+- Creation of the website (frontend)
+- Linking the site with backend
 
-###### _(*) Paragraph created on 10. Febraur 2021_
+The project is currently at the end of the design phase.
+<br>If there is an exact date, this paragraph will be updated _(*)_. 
+###### _(*) Paragraph updated on 16. Febraur 2021_
 <br>
 
 ## What is the URL of the website?
