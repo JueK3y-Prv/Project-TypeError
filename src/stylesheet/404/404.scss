@@ -158,11 +158,16 @@ body {
       font-size: 3.5vh;
       text-align: center;
       a {
+        transition: .2s;
         text-decoration: underline;
         -webkit-text-decoration-color: lightskyblue;
         text-decoration-color:lightskyblue;
         -webkit-text-decoration-style: wavy;
         text-decoration-style: wavy;
+      }
+      a:hover {
+        transition: .2s;
+        color: #0203048a;
       }
     }
   }

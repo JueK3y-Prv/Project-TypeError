@@ -168,11 +168,18 @@ body .content p {
   text-align: center;
 }
 body .content p a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   text-decoration: underline;
   -webkit-text-decoration-color: lightskyblue;
   text-decoration-color: lightskyblue;
   -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
+}
+body .content p a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #0203048a;
 }
 body a {
   text-decoration: none;
