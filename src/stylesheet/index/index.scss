@@ -173,7 +173,20 @@ body {
 }
 
 @media screen and (max-width: 414px) {
-  .icons {
-    display: none;
+  body {
+    .navigation {
+      h1 {
+        left: 67vw;
+      }
+      input + label {
+        left: 10vw;
+      }
+      .icons {
+        display: none;
+      }
+    }
+    .content p {
+      font-size: 3vh;
+    }
   }
 }

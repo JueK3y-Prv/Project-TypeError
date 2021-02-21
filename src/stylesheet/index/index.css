@@ -178,9 +178,19 @@ body a {
   text-decoration: none;
   color: #020304;
 }
+
 @media screen and (max-width: 414px) {
-  .icons {
+  body .navigation h1 {
+    left: 67vw;
+  }
+  body .navigation input + label {
+    left: 10vw;
+  }
+  body .navigation .icons {
     display: none;
+  }
+  body .content p {
+    font-size: 3vh;
   }
 }
 /*# sourceMappingURL=index.css.map */
