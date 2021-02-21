@@ -171,3 +171,9 @@ body {
     color: $blackColor;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .icons {
+    display: none;
+  }
+}
