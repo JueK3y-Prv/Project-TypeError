@@ -5,11 +5,27 @@
     font-style: normal;
 }
 
-$blackColor: #020304;
+$background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+$banner: #fff;
+$blackColor: #1b1c1e;
 $hoverColor: #BBC6C6;
 
+@media screen and (prefers-color-scheme: dark) {
+  $background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  $banner: #020304;
+  $blackColor: #121212;
+  $hoverColor: #BBC6C6;
+}
+
 body {
+  background-image: $background;
+  background-blend-mode: normal, lighten, soft-light;
   .navigation {
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
     input + label {
       position: fixed;
       top: 39px;
@@ -55,7 +71,7 @@ body {
       }
     }
     input ~ nav {
-      background: white;
+      background: $banner;
       position: fixed;
       top: 0;
       left: 0;
@@ -104,6 +120,7 @@ body {
       }
     }
     h1 {
+      transition: .2s;
       position: fixed;
       top: 13px;
       left: 48.1vw;    /* right: 80px */

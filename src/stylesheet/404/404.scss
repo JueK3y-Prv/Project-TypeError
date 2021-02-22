@@ -5,10 +5,14 @@
   font-style: normal;
 }
 
+$blackColor: #1b1c1e;
 $hoverColor: #0203048a;
 
 body {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  .navigation h1:hover {
+      transition: .2s;
+      opacity: .55;
+  }
   .content {
     position: absolute;
     top: 0;

@@ -1,23 +1,13 @@
 @font-face {
-  font-family: "Logo";
-  src: url("/src/font/Dreamlight.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Navigation";
-  src: url("/src/font/ExodusDemo-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Content";
   src: url("/src/font/Ogg-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-body {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+body .navigation h1:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0.55;
 }
 body .content {
   position: absolute;
@@ -57,7 +47,7 @@ body .content p a:hover {
 }
 body a {
   text-decoration: none;
-  color: #020304;
+  color: #1b1c1e;
 }
 
 @media screen and (max-width: 414px) {
