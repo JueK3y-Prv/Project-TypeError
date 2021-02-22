@@ -77,6 +77,7 @@ body {
           transition: .5s;
           transition-delay: 0s;
           > a {
+            transition: .2s;
             text-decoration: none;
             text-transform: uppercase;
             color: $blackColor;
@@ -84,6 +85,10 @@ body {
             font-family: sans-serif;
             display: block;
             padding: 30px;
+          }
+          a:hover {
+            transition: .2s;
+            color: $hoverColor
           }
         }
       }
@@ -119,14 +124,15 @@ body {
       top: 35px;
       right: 76px;
       #bag {
-        background: none;
+        transition: .2s;
         padding-right: 1.4vw;
       }
       #globe {
-        background: none;
+        transition: .2s;
       }
       #bag:hover, #globe:hover {
-        background: $hoverColor;
+        transition: .2s;
+        opacity: .55;
       }
     }
   }
