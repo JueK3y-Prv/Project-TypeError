@@ -52,8 +52,12 @@ body .content .page-1 p a:hover {
   transition: 0.2s;
   color: #0203048a;
 }
-body .content .page-2 p {
+body .content .page-2 {
   display: none;
+  height: 200%;
+  background-color: rgba(0, 0, 0, 0.247);
+}
+body .content .page-2 p {
   position: relative;
   font-family: "Content";
   font-size: 3.5vh;

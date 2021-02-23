@@ -5,22 +5,66 @@
       <head>
             <!-------   META  ------->
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+            <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
+            <meta property="og:site_name" content="TypeError">
+            <meta property="og:url" content="https://type-error.netlify.app/">
+            <meta property="og:title" content="TypeError | Startpage">
+            <meta property="og:type" content="webshop">
+            <meta property="og:description" content="TypeError | An online store for the sale of branded shoes | Official Website">
+            <meta property="og:locale" content="de_DE">
+
+            <meta name="publisher" content="JueK3y & TypeError">
+            <meta name="title-tag" content="TypeError | An online store for the sale of branded shoes | Official Website">
+            <meta name="description" content="TypeError | An online store for the sale of branded shoes | Official Website">
+            <meta name="keywords" content="webshop, onlineshop, shoes, branded, resale, nike, vans, addiads, offical, typeerror, type-error"/>
+            <meta name="content-language" content="de">
+
+            <meta name="twitter:site" content="@type-error">
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:title" content="TypeError | Startpage">
+            <meta name="twitter:description" content="TypeError | An online store for the sale of branded shoes | Official Website">
+            
+            <meta name="robots" content="index, follow">
+            <meta name="googlebot" content="index, follow">
+            <meta name="revisit" content="After 10 days">
+
+            
+            <!-------   Link  ------->
+            <link rel="alternate" href="https://type-error.netlify.app/en/" hreflang="en">
+            <link rel="alternate" href="https://type-error.netlify.app/de/" hreflang="x-default">
+            <link rel="canonical" href="https://type-error.netlify.app/">
+
+            <link rel="preload" href="src/stylesheet/index/index.min.css" as="style" type="text/css" />
+            <link rel="preload" href="src/stylesheet/navigation/navigation.min.css" as="style" type="text/css" />
+            <link rel="preload" href="src/stylesheet/scrollbar.css" as="style" type="text/css" />
+
+            <link rel="preload" href="src/font/Dreamlight.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+            <link rel="preload" href="src/font/Ogg-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+
+            
+            <link rel="preload" href="src/img/shopping-bag-icons8.png" as="image" />
+            <link rel="preload" href="src/img/globe-icons8.png" as="image" />
+            
             <!-------   JS  ------->
+            <script src="src/js/instantclick.min.js" data-no-instant></script>
+            <script data-no-instant>InstantClick.init();</script>
+
 
             <!-------   Stylesheet  ------->
-            <!-- 404 -->
-            <link rel="stylesheet" href="/src/stylesheet/index/index.css">
+            <!-- Index -->
+            <link rel="stylesheet" href="/src/stylesheet/index/index.min.css">
 
             <!-- Navigation -->
-            <link rel="stylesheet" href="/src/stylesheet/navigation/navigation.css">
+            <link rel="stylesheet" href="/src/stylesheet/navigation/navigation.min.css">
 
             <!-- Scrollbar -->
             <link rel="stylesheet" href="/src/stylesheet/scrollbar.css">
 
+
             <!-------   IMG  ------->
+
 
             <title>TypeError | Startpage</title>
       </head>
@@ -41,8 +85,8 @@
                   </nav>
                   <h1><a href="" title="TypeError Logo">TypeError</a></h1>
                   <div class="icons">
-                        <a href="#" id="bag" title="There's nothing in your shopping bag."><img src="https://img.icons8.com/small/32/000000/shopping-bag.png" alt="The image (or icon) of a shopping bag"/></a>    <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
-                        <a href="#" id="globe" title="Click here to change the language."><img src="https://img.icons8.com/small/32/000000/globe.png" alt="The image (or icon) of a globe"/></a>           <!-- Needs to be inserted: <a href="https://icons8.com/icon/43753/globe">Globe icon by Icons8</a> -->
+                        <a href="#" id="bag" title="There's nothing in your shopping bag."><img src="/src/img/shopping-bag-icons8.png" alt="The image (or icon) of a shopping bag"/></a>    <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
+                        <a href="#" id="globe" title="Click here to change the language."><img src="/src/img/globe-icons8.png" alt="The image (or icon) of a globe"/></a>           <!-- Needs to be inserted: <a href="https://icons8.com/icon/43753/globe">Globe icon by Icons8</a> -->
                   </div>
             </div>
             <div class="content">
