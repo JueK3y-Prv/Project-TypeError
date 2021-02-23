@@ -1,8 +1,9 @@
 @font-face {
   font-family: 'Content';
-  src: url('/src/font/Ogg-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  src: url('/src/font/Ogg-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
 $blackColor: #1b1c1e;

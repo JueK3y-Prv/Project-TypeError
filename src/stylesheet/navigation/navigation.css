@@ -1,8 +1,9 @@
 @font-face {
   font-family: "Logo";
-  src: url("/src/font/Dreamlight.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  src: url("/src/font/Dreamlight.ttf") format("truetype");
+  font-display: swap;
 }
 body {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);

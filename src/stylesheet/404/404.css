@@ -1,8 +1,9 @@
 @font-face {
   font-family: "Content";
-  src: url("/src/font/Ogg-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  src: url("/src/font/Ogg-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 body .navigation h1:hover {
   -webkit-transition: 0.2s;
