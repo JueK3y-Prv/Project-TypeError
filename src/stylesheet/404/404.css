@@ -28,7 +28,7 @@ body .content {
 }
 body .content p {
   position: relative;
-  font-family: "Content";
+  font-family: "Content", "Times New Roman", Times, serif;
   font-size: 3.5vh;
   text-align: center;
 }

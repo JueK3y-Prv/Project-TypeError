@@ -3,6 +3,7 @@
   font-weight: normal;
   font-style: normal;
   src: url("/src/font/Ogg-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 body .content {
   position: absolute;
@@ -34,7 +35,7 @@ body .content ::-moz-selection {
 }
 body .content .page-1 p {
   position: relative;
-  font-family: "Content";
+  font-family: "Content", "Times New Roman", Times, serif;
   font-size: 3.5vh;
   text-align: center;
 }
@@ -59,7 +60,7 @@ body .content .page-2 {
 }
 body .content .page-2 p {
   position: relative;
-  font-family: "Content";
+  font-family: "Content", "Times New Roman", Times, serif;
   font-size: 3.5vh;
   text-align: center;
 }
