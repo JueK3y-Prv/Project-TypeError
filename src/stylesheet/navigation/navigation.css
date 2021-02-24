@@ -141,6 +141,8 @@ body .navigation .icons {
   z-index: 6;
   top: 35px;
   right: 76px;
+  width: auto;
+  height: auto;
 }
 body .navigation .icons #bag {
   -webkit-transition: 0.2s;

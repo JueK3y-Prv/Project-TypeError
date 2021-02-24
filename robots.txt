@@ -1,8 +1,3 @@
-# ===================================
-# Created: 24.02.2021, 12:42
-# Website: http://type-error.netlify.app/
-# ===================================
-
 User-agent: *
 Disallow: /testlab/
 Disallow: /de/page-not-found.htm
@@ -17,4 +12,4 @@ User-agent: EmailCollector
 User-agent: penthesilea
 Disallow: /
 
-Sitemap: sitemap.xml
+Sitemap: https://type-error.netlify.app/sitemap.xml
