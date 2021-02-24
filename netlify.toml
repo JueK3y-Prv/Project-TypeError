@@ -1,5 +1,10 @@
 [[redirects]]
   from = "/"
+  to = "/en/"
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "/"
   to = "/de/"
 
 [[redirects]]
@@ -29,8 +34,3 @@
 [[redirects]]
   from = "/type-error"
   to = "/de/"
-
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  conditions = {Language = ["en"]}
