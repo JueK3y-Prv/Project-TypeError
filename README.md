@@ -38,4 +38,4 @@ This may well occur in an unfinished website.
 
 <br>
 
-###### _Legal notice: The source code of the files and ALL images (in the img folder) are subject to German copyright law and are protected by copyright according to § 2 UrhG. Any use beyond personal use is only allowed with permission of the owner of this website (Julian Kennedy & the creater of LVM).<br>DO NOT indicate used program sections and images as your own. Certain program sections and images were not developed by me and are therefore subject to a different copyright. ©2020 - 2021 by Julian Kennedy (aka JueK3y)_
+###### _Legal notice: The source code of the files and ALL images (in the img folder, except the marked ones) are subject to German copyright law and are protected by copyright according to § 2 UrhG. Any use beyond personal use is only allowed with permission of the owner of this website (Julian Kennedy & the creater of LVM).<br>DO NOT indicate used program sections and images as your own. Certain program sections and images were not developed by me and are therefore subject to a different copyright. ©2020 - 2021 by Julian Kennedy (aka JueK3y)_
