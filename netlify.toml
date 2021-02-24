@@ -1,10 +1,21 @@
 [[redirects]]
   from = "/*"
   to = "/en/"
-  status = 302
+  status = 301
   force = true
   conditions = {Language = ["en"]}
 
 [[redirects]]
   from = "/*"
   to = "/de/"
+
+[[redirects]]
+  from = "404.html"
+  to = "/en/404.htm"
+  status = 301
+  force = true
+  conditions = {Language = ["en"]}
+
+  [[redirects]]
+  from = "404.html"
+  to = "/de/404.htm"
