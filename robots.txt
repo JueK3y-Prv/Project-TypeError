@@ -1,0 +1,20 @@
+# ===================================
+# Created: 24.02.2021, 12:42
+# Website: http://type-error.netlify.app/
+# ===================================
+
+User-agent: *
+Disallow: /testlab/
+Disallow: /de/page-not-found.htm
+Disallow: /en/page-not-found.htm
+
+User-agent: WebReaper
+User-agent: WebCopier
+User-agent: Offline Explorer
+User-agent: HTTrack
+User-agent: Microsoft.URL.Control
+User-agent: EmailCollector
+User-agent: penthesilea
+Disallow: /
+
+Sitemap: sitemap.xml
