@@ -1,7 +1,6 @@
 [[redirects]]
   from = "/"
   to = "/de/"
-  conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "/"
