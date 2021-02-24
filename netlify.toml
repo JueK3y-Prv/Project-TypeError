@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "index.htm"
+  to = "/de/index.htm"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/"
+  to = "/de/"
+  status = 301
+  force = false
