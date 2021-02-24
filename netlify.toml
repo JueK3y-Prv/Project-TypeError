@@ -1,12 +1,12 @@
 [[redirects]]
-  from = "/*"
+  from = "/en/*"
   to = "/en/page-not-found.htm"
   status = 404
   force = true
   conditions = {Language = ["en"]}
 
   [[redirects]]
-  from = "/*"
+  from = "/de/*"
   to = "/de/page-not-found.htm"
   status = 404
 
