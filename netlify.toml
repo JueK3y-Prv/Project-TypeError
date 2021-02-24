@@ -1,11 +1,27 @@
 [[redirects]]
-  from = "index.htm"
+  from = "/index.htm"
   to = "/de/index.htm"
-  status = 301
-  force = false
 
 [[redirects]]
   from = "/"
   to = "/de/"
-  status = 301
-  force = false
+
+[[redirects]]
+  from = "/index.htm/"
+  to = "/de/index.htm/"
+
+[[redirects]]
+  from = ""
+  to = "/de/"
+
+[[redirects]]
+  from = ""
+  to = "/de/index.htm"
+
+[[redirects]]
+  from = "https://type-error.netlify.app/"
+  to = "https://type-error.netlify.app/de/index.htm"
+  
+[[redirects]]
+  from = "https://type-error.netlify.app/"
+  to = "https://type-error.netlify.app/de/"
