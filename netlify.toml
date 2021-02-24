@@ -10,13 +10,13 @@
   to = "/de/"
 
 [[redirects]]
-  from = "404.html"
+  from = "/en/404.html"
   to = "/en/page-not-found.htm"
   status = 404
   force = true
   conditions = {Language = ["en"]}
 
   [[redirects]]
-  from = "404.html"
+  from = "/de/404.html"
   to = "/de/page-not-found.htm"
   status = 404
