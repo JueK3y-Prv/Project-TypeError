@@ -1,36 +1,10 @@
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/en/"
+  status = 302
+  force = true
   conditions = {Language = ["en"]}
 
 [[redirects]]
-  from = "/"
-  to = "/de/"
-
-[[redirects]]
-  from = "/index"
-  to = "/de/"
-
-[[redirects]]
-  from = "/index.htm"
-  to = "/de/"
-
-[[redirects]]
-  from = "/index.html"
-  to = "/de/"
-
-[[redirects]]
-  from = "/start"
-  to = "/de/"
-
-[[redirects]]
-  from = "/home"
-  to = "/de/"
-
-[[redirects]]
-  from = "/TypeError"
-  to = "/de/"
-
-[[redirects]]
-  from = "/type-error"
+  from = "/*"
   to = "/de/"
