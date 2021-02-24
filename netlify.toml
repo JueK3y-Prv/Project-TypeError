@@ -22,12 +22,14 @@ for ="*"
   status = 404
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/en/"
-  status = 301
+  status = 302
   force = true
   conditions = {country = ["DE"]}
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/de/"
+  status = 302
+  force = true
