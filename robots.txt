@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: 
 Disallow: /testlab/
 Disallow: /de/page-not-found.htm
 Disallow: /en/page-not-found.htm
@@ -13,4 +12,4 @@ User-agent: EmailCollector
 User-agent: penthesilea
 Disallow: /
 
-Sitemap: https://type-error.netlify.app/sitemap.xml
+sitemap: https://type-error.netlify.app/sitemap.xml
