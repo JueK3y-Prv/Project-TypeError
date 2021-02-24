@@ -2,13 +2,11 @@
   from = "/en/*"
   to = "/en/page-not-found.htm"
   status = 404
-  force = true
 
   [[redirects]]
   from = "/de/*"
   to = "/de/page-not-found.htm"
   status = 404
-  force = true
 
 [[redirects]]
   from = "/*"
@@ -20,5 +18,3 @@
 [[redirects]]
   from = "/*"
   to = "/de/"
-  status = 301
-  force = true
