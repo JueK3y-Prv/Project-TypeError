@@ -26,13 +26,7 @@ for ="*"
   to = "/en/"
   status = 301
   conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/en/"
-  status = 301
-  conditions = {Country = ["DE"]}
-
+  
 [[redirects]]
   from = "/*"
   to = "/de/"
