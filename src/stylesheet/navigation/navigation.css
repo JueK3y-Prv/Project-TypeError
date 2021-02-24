@@ -128,7 +128,7 @@ body .navigation h1 {
   z-index: 6;
   font-size: 20px;
   font-weight: 900;
-  font-family: "Logo", sans-serif;
+  font-family: "Logo", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 body .navigation h1 > span {
   text-transform: none;
