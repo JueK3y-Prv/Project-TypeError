@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: 
 Disallow: /testlab/
 Disallow: /de/page-not-found.htm
 Disallow: /en/page-not-found.htm

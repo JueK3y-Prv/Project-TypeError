@@ -141,6 +141,8 @@ body .navigation .icons {
   z-index: 6;
   top: 35px;
   right: 76px;
+}
+body .navigation .icons img {
   width: auto;
   height: auto;
 }

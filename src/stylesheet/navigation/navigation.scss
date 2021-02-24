@@ -142,8 +142,10 @@ body {
       z-index: 6;
       top: 35px;
       right: 76px;
-      width: auto;
-      height: auto;
+      img {
+        width: auto;
+        height: auto;
+      }
       #bag {
         transition: .2s;
         padding-right: 1.4vw;
