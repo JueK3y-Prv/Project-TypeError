@@ -1,14 +1,14 @@
 [[headers]]
-for ="*"
-  [headers.values]
-    Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'"
-    Referrer-Policy = "same-origin"
-    Strict-Transport-Security = "max-age=2592000; includeSubdomains; preload"
-    
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    X-Permitted-Cross-Domain-Policies = "none"
+  for ="*"
+    [headers.values]
+      Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'"
+      Referrer-Policy = "same-origin"
+      Strict-Transport-Security = "max-age=2592000; includeSubdomains; preload"
+      
+      X-Frame-Options = "DENY"
+      X-XSS-Protection = "1; mode=block"
+      X-Content-Type-Options = "nosniff"
+      X-Permitted-Cross-Domain-Policies = "none"
 
 [[redirects]]
   from = "/de/*"
@@ -25,6 +25,12 @@ for ="*"
   to = "/de/"
   status = 301
   conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/de/"
+  status = 301
+  conditions = {Country = ["de"]}
 
 [[redirects]]
   from = "/*"
