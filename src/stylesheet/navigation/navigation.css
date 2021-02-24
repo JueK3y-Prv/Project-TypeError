@@ -64,6 +64,7 @@ body .navigation input:checked + label span:last-child {
 }
 body .navigation input ~ nav {
   background: #fff;
+  border-bottom: 1px solid #E0E0E0;
   position: fixed;
   top: 0;
   left: 0;

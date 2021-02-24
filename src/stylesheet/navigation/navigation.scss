@@ -73,6 +73,7 @@ body {
     }
     input ~ nav {
       background: $banner;
+      border-bottom: 1px solid #E0E0E0;
       position: fixed;
       top: 0;
       left: 0;
