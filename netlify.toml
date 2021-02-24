@@ -24,10 +24,10 @@ for ="*"
 [[redirects]]
   from = "/*"
   to = "/en/"
-  force = true
+  status = 301
   conditions = {Language = ["en"]}
 
 [[redirects]]
   from = "/*"
   to = "/de/"
-  force = true
+  status = 301
