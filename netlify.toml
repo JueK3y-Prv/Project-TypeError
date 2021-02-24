@@ -26,10 +26,11 @@ for ="*"
   to = "/en/"
   status = 302
   force = true
-  conditions = {country = ["DE"]}
+  conditions = {language = ["en"]}
 
 [[redirects]]
   from = "/"
   to = "/de/"
   status = 302
   force = true
+  conditions = {language = ["de"]}
