@@ -23,17 +23,17 @@ for ="*"
 
 [[redirects]]
   from = "/*"
-  to = "/de/"
+  to = "/en/"
   status = 301
   conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "/*"
-  to = "/de/"
+  to = "/en/"
   status = 301
   conditions = {Country = ["DE"]}
 
 [[redirects]]
   from = "/*"
-  to = "/en/"
+  to = "/de/"
   status = 301
