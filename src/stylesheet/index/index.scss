@@ -26,8 +26,8 @@ body {
       background: #737d8d;
     }
     ::-moz-selection {
-      color: lightskyblue;
-      background: $textColor;
+      color: #CEDBF0;
+      background: #737d8d;
     }
     .page-1 {
       // background-color: rgba(0, 0, 0, 0.247);
@@ -97,12 +97,12 @@ body {
       justify-content: center;
       align-items: center;
       ::selection {
-        color: #CEDBF0;
-        background: #737d8d;
+        color: #b0bed6;
+        background: #4d545f;
       }
       ::-moz-selection {
-        color: lightskyblue;
-        background: $textColor;
+        color: #b0bed6;
+        background: #4d545f;
       }
       .page-1 {
         // background-color: rgba(0, 0, 0, 0.247);

@@ -30,8 +30,8 @@ body .content ::selection {
   background: #737d8d;
 }
 body .content ::-moz-selection {
-  color: lightskyblue;
-  background: #1B1C1E;
+  color: #CEDBF0;
+  background: #737d8d;
 }
 body .content .page-1 p {
   position: relative;
@@ -101,16 +101,16 @@ body a {
             align-items: center;
   }
   body .content ::-moz-selection {
-    color: #CEDBF0;
-    background: #737d8d;
+    color: #b0bed6;
+    background: #4d545f;
   }
   body .content ::selection {
-    color: #CEDBF0;
-    background: #737d8d;
+    color: #b0bed6;
+    background: #4d545f;
   }
   body .content ::-moz-selection {
-    color: lightskyblue;
-    background: #FAFAFA;
+    color: #b0bed6;
+    background: #4d545f;
   }
   body .content .page-1 p {
     position: relative;
