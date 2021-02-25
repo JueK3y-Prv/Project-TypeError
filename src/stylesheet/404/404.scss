@@ -6,8 +6,18 @@
   font-display: swap;
 }
 
-$blackColor: #1b1c1e;
+$textColor: #1B1C1E;
 $hoverColor: #0203048a;
+
+@media (prefers-color-scheme: dark) {
+  $textColor: #FAFAFA;
+  $hoverColor: #BBC6C6;
+}
+
+@media (prefers-color-scheme: light) {
+  $textColor: #1B1C1E;
+  $hoverColor: #0203048a;
+}
 
 body {
   .navigation h1:hover {
@@ -28,6 +38,7 @@ body {
       font-family: 'Content', 'Times New Roman', Times, serif ;
       font-size: 3.5vh;
       text-align: center;
+      color: $textColor;
       a {
         transition: .2s;
         text-decoration: underline;
@@ -44,7 +55,7 @@ body {
   }
   a {
     text-decoration: none;
-    color: $blackColor;
+    color: $textColor;
   }
 }
 

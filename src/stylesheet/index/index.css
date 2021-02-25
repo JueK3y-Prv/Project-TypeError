@@ -31,13 +31,14 @@ body .content ::selection {
 }
 body .content ::-moz-selection {
   color: lightskyblue;
-  background: #1b1c1e;
+  background: #1B1C1E;
 }
 body .content .page-1 p {
   position: relative;
   font-family: "Content", "Times New Roman", Times, serif;
   font-size: 3.5vh;
   text-align: center;
+  color: #1B1C1E;
 }
 body .content .page-1 p a {
   -webkit-transition: 0.2s;
@@ -79,7 +80,7 @@ body .content .page-2 p a:hover {
 }
 body a {
   text-decoration: none;
-  color: #1b1c1e;
+  color: #1B1C1E;
 }
 
 @media screen and (max-width: 414px) {

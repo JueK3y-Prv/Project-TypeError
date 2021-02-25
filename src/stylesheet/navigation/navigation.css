@@ -31,7 +31,7 @@ body .navigation input + label span {
   margin-top: -1px;
   left: 0;
   display: block;
-  background: #1b1c1e;
+  background: #1B1C1E;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -63,7 +63,7 @@ body .navigation input:checked + label span:last-child {
           transform: rotate(-45deg);
 }
 body .navigation input ~ nav {
-  background: #fff;
+  background: #FAFAFA;
   border-bottom: 1px solid #E0E0E0;
   position: fixed;
   top: 0;
@@ -97,7 +97,7 @@ body .navigation input ~ nav > ul > li > a {
   transition: 0.2s;
   text-decoration: none;
   text-transform: uppercase;
-  color: #1b1c1e;
+  color: #1B1C1E;
   font-weight: 700;
   font-family: sans-serif;
   display: block;
@@ -146,6 +146,9 @@ body .navigation .icons #bag {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   padding-right: 1.4vw;
+}
+body .navigation .icons #bag img .test {
+  background-image: url("/src/img/shopping-bag-icons8.png");
 }
 body .navigation .icons #globe {
   -webkit-transition: 0.2s;

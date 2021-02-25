@@ -6,8 +6,19 @@
   font-display: swap;
 }
 
-$blackColor: #1b1c1e;
+$textColor: #1B1C1E;
 $hoverColor: #0203048a;
+
+@media (prefers-color-scheme: dark) {
+  $textColor: #FAFAFA;
+  $hoverColor: #BBC6C6;
+}
+
+@media (prefers-color-scheme: light) {
+  $textColor: #1B1C1E;
+  $hoverColor: #0203048a;
+}
+
 
 body {
   // height: 196.2vh;
@@ -27,7 +38,7 @@ body {
     }
     ::-moz-selection {
       color: lightskyblue;
-      background: $blackColor;
+      background: $textColor;
     }
     .page-1 {
       // background-color: rgba(0, 0, 0, 0.247);
@@ -36,6 +47,7 @@ body {
         font-family: 'Content', 'Times New Roman', Times, serif ;
         font-size: 3.5vh;
         text-align: center;
+        color: $textColor;
         a {
           transition: .2s;
           text-decoration: underline;
@@ -75,7 +87,7 @@ body {
   }
   a {
     text-decoration: none;
-    color: $blackColor;
+    color: $textColor;
   }
 }
 
