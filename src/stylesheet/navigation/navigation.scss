@@ -6,17 +6,19 @@
     font-display: swap;
 }
 
-$background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-$banner: #fff;
-$blackColor: #1b1c1e;
-$hoverColor: #BBC6C6;
-
 @media screen and (prefers-color-scheme: dark) {
   $background: linear-gradient(to right, #868f96 0%, #596164 100%);
-  $banner: #020304;
-  $blackColor: #121212;
+  $blackColor: #1b1c1e;
+  $banner: #fff;
+  $bannerGrey: #E0E0E0;
   $hoverColor: #BBC6C6;
 }
+
+$background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+$blackColor: #1b1c1e;
+$banner: #fff;
+$bannerGrey: #E0E0E0;
+$hoverColor: #BBC6C6;
 
 body {
   background-image: $background;
@@ -73,7 +75,7 @@ body {
     }
     input ~ nav {
       background: $banner;
-      border-bottom: 1px solid #E0E0E0;
+      border-bottom: 1px solid $bannerGrey;
       position: fixed;
       top: 0;
       left: 0;
@@ -142,10 +144,6 @@ body {
       z-index: 6;
       top: 35px;
       right: 76px;
-      img {
-        width: auto;
-        height: auto;
-      }
       #bag {
         transition: .2s;
         padding-right: 1.4vw;

@@ -54,7 +54,7 @@ body .content .page-1 p a:hover {
   color: #0203048a;
 }
 body .content .page-2 {
-  height: 200%;
+  display: none;
   background-color: rgba(0, 0, 0, 0.247);
 }
 body .content .page-2 p {
