@@ -38,28 +38,29 @@
             <link rel="alternate" href="https://type-error.netlify.app/de/" hreflang="x-default">
             <link rel="canonical" href="https://type-error.netlify.app/de/">
 
-            <link rel="preload" href="/src/stylesheet/index/index.min.css" as="style" type="text/css" />
-            <link rel="preload" href="/src/stylesheet/navigation/navigation.min.css" as="style" type="text/css" />
+            <link rel="preload" href="/src/stylesheet/index/light/index.min.css" as="style" type="text/css" />
+            <link rel="preload" href="/src/stylesheet/navigation/light/navigation.min.css" as="style" type="text/css" />
             <link rel="preload" href="/src/stylesheet/scrollbar.css" as="style" type="text/css" />
 
-            <link rel="preload" href="/src/font/Dreamlight.ttf" as="font" type="font/ttf" crossorigin="" />
-            <link rel="preload" href="/src/font/Ogg-Regular.ttf" as="font" type="font/ttf" crossorigin="" />
+            <!-- <link rel="preload" href="/src/font/Dreamlight.ttf" as="font" type="font/ttf" crossorigin="" />
+            <link rel="preload" href="/src/font/Ogg-Regular.ttf" as="font" type="font/ttf" crossorigin="" /> -->
 
-            
-            <link rel="preload" href="/src/img/shopping-bag-icons8.png" as="image" />
+            <link rel="preload" href="/src/img/moon-symbol-32-icons8.png" as="image" />
+            <link rel="preload" href="/src/img/dark-sun-32-icons8.png" as="image" />
+            <!-- <link rel="preload" href="/src/img/shopping-bag-icons8.png" as="image" /> -->
             <link rel="preload" href="/src/img/globe-icons8.png" as="image" />
 
 
             <!-------   Stylesheet  ------->
             <!-- Index -->
-            <link rel="stylesheet" type="text/css" href="/src/stylesheet/index/index.min.css">
+            <link id="theme" rel="stylesheet" type="text/css" href="/src/stylesheet/index/light/index.min.css">
 
             <!-- Navigation -->
-            <link rel="stylesheet" type="text/css" href="/src/stylesheet/navigation/navigation.min.css">
+            <link rel="stylesheet" type="text/css" href="/src/stylesheet/navigation/light/navigation.min.css">
 
             <!-- Scrollbar -->
             <link rel="stylesheet" type="text/css" href="/src/stylesheet/scrollbar.css">
-
+            
             <!-- Cookie Banner -->
             <link rel="stylesheet" type="text/css" href="/src/stylesheet/cookieBanner/cookieBanner.min.css"/>
 
@@ -67,7 +68,9 @@
             <!-------   JS  ------->
             <script src="/src/js/preventContext.js"></script>
 
-            <script src="/src/js/cookieBanner.min.js" defer></script>
+            <script src="/src/js/cookieBanner-dark.min.js"></script>
+
+            <script src="/src/js/light-dark.js"></script>
 
             <!-- <script src="src/js/instantclick.min.js" data-no-instant></script>
             <script data-no-instant>InstantClick.init();</script> -->
@@ -77,7 +80,7 @@
 
             <title>TypeError | Startseite</title>
       </head>
-      <body>
+      <body onload="detectTheme()">
             <div class="navigation">
                   <input id="burger" type="checkbox" />
                   <label for="burger">
@@ -94,18 +97,14 @@
                   </nav>
                   <h1><a href="#" title="TypeError Logo">TypeError</a></h1>
                   <div class="icons">
-                        <a href="#" id="bag" title="Du hast noch nichts in deinem Einkaufskorb.">
-                              <picture>
-                                    <source srcset="/src/img/dark-shopping-bag-32-icons8.png" media="(prefers-color-scheme: dark)">
-                                    <img src="/src/img/shopping-bag-icons8.png" alt="Das Bild einer Einkaufstasche" width="auto" height="auto" />
-                              </picture>
-                        </a>    
-                        <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
+                        <!-- <a href="#" id="bag" title="Du hast noch nichts in deinem Einkaufskorb.">
+                              <img src="/src/img/shopping-bag-icons8.png" alt="Das Bild einer Einkaufstasche" width="auto" height="auto" />
+                        </a> --> <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
+                        <a onclick="toggleTheme()" id="bag" title="Switch between Light / Dark Mode">
+                              <img id="light-dark" src="/src/img/moon-symbol-32-icons8.png" alt="The image (or icon) of the moon. Click here to switch to the Dark Mode." width="auto" height="auto" />
+                        </a>   
                         <a href="/en/" id="globe" title="Klicke hier, um die Sprache zu ändern.">
-                              <picture>
-                                    <source srcset="/src/img/dark-globe-32-icons8.png" media="(prefers-color-scheme: dark)">
-                                    <img src="/src/img/globe-icons8.png" alt="Das Bild eines Globus" width="auto" height="auto" />
-                              </picture>
+                              <img src="/src/img/globe-icons8.png" alt="Das Bild eines Globus" width="auto" height="auto" />
                         </a>           
                         <!-- Needs to be inserted: <a href="https://icons8.com/icon/43753/globe">Globe icon by Icons8</a> -->
                   </div>
