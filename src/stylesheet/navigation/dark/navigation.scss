@@ -141,10 +141,14 @@ body {
       transition: .2s;
       padding-right: 1.4vw;
     }
+    #switch {
+      transition: .2s;
+      padding-right: 1.4vw;
+    }
     #globe {
       transition: .2s;
     }
-    #bag:hover, #globe:hover {
+    #bag:hover, #switch:hover #globe:hover {
       transition: .2s;
       opacity: .55;
     }

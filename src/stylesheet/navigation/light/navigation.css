@@ -147,11 +147,16 @@ body .navigation .icons #bag {
   transition: 0.2s;
   padding-right: 1.4vw;
 }
+body .navigation .icons #switch {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding-right: 1.4vw;
+}
 body .navigation .icons #globe {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-body .navigation .icons #bag:hover, body .navigation .icons #globe:hover {
+body .navigation .icons #bag:hover, body .navigation .icons #switch:hover #globe:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   opacity: 0.55;

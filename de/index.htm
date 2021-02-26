@@ -70,8 +70,6 @@
 
             <script src="/src/js/cookieBanner-dark.min.js"></script>
 
-            <script src="/src/js/light-dark.js"></script>
-
             <!-- <script src="src/js/instantclick.min.js" data-no-instant></script>
             <script data-no-instant>InstantClick.init();</script> -->
 
@@ -80,7 +78,7 @@
 
             <title>TypeError | Startseite</title>
       </head>
-      <body onload="detectTheme()">
+      <body>
             <div class="navigation">
                   <input id="burger" type="checkbox" />
                   <label for="burger">
@@ -100,7 +98,7 @@
                         <!-- <a href="#" id="bag" title="Du hast noch nichts in deinem Einkaufskorb.">
                               <img src="/src/img/shopping-bag-icons8.png" alt="Das Bild einer Einkaufstasche" width="auto" height="auto" />
                         </a> --> <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
-                        <a onclick="toggleTheme()" id="bag" title="Switch between Light / Dark Mode">
+                        <a id="switch" title="Switch between Light / Dark Mode">
                               <img id="light-dark" src="/src/img/moon-symbol-32-icons8.png" alt="The image (or icon) of the moon. Click here to switch to the Dark Mode." width="auto" height="auto" />
                         </a>   
                         <a href="/en/" id="globe" title="Klicke hier, um die Sprache zu ändern.">
@@ -119,5 +117,7 @@
                         <br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Klick hier um mehr zu erfahren.</a></p>
                   </div>
             </div>
+            
+            <script src="/src/js/light-dark.js"></script>
       </body>
 </html>

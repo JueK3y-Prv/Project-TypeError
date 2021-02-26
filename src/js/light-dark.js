@@ -1,3 +1,4 @@
+window.onload = detectTheme()
 function detectTheme() {
     
     var theme = document.getElementsByTagName('link')[9]; 
@@ -23,7 +24,10 @@ function detectTheme() {
     }
 }
 
-function toggleTheme() { 
+
+var switchLD = document.getElementById("switch");
+
+switchLD.onclick = function toggleTheme() { 
 
     var theme = document.getElementsByTagName('link')[9]; 
     var themeNav = document.getElementsByTagName('link')[10]; 
