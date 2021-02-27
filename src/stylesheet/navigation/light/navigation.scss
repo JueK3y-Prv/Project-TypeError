@@ -102,6 +102,9 @@ body {
             transition: .2s;
             color: $hoverColor
           }
+          #resp {
+            display: none;
+          }
         }
       }
     }
@@ -156,26 +159,44 @@ body {
 }
 
 @media screen and (max-width: 414px) {
-    body {
-      .navigation {
-        h1 {
-          top: 5px;
-          left: 67vw;
-        }
-        input + label {
-          top: 30px;
-          left: 10vw;
-        }
-        input ~ nav {
-          height: 75px;
-          > ul {
-            top: 30vh;
-            right: 28%;
+  body {
+    .navigation {
+      h1 {
+        top: 5px;
+        left: 67vw;
+      }
+      input + label {
+        top: 30px;
+        left: 10vw;
+      }
+      input ~ nav {
+        height: 75px;
+        > ul {
+          top: 30vh;
+          right: 28%;
+          li a #desk {
+            display: none;
+          }
+          li a #resp {
+            display: flex;
           }
         }
-        .icons {
-          display: none;
+      }
+      .icons {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    body {
+      .navigation {
+        input ~ nav {
+          > ul {
+            top: 23vh;
+          }
         }
       }
     }
   }
+}

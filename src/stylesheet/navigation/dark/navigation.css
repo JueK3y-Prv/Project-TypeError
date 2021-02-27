@@ -109,6 +109,12 @@ body .navigation input ~ nav > ul > li a:hover {
   transition: 0.2s;
   color: #BBC6C6;
 }
+body .navigation input ~ nav > ul > li #resp {
+  display: none;
+}
+body .navigation input ~ nav > ul > li #desk {
+  display: block;
+}
 body .navigation input:checked ~ nav {
   height: 100%;
   -webkit-transition-delay: 0s;
@@ -179,8 +185,19 @@ body .icons #bag:hover, body .icons #switch:hover #globe:hover {
     top: 30vh;
     right: 28%;
   }
+  body .navigation input ~ nav > ul > li #resp {
+    display: block;
+  }
+  body .navigation input ~ nav > ul > li #desk {
+    display: none;
+  }
   body .navigation .icons {
     display: none;
+  }
+}
+@media screen and (max-width: 414px) and (max-width: 360px) {
+  body .navigation input ~ nav > ul {
+    top: 23vh;
   }
 }
 /*# sourceMappingURL=navigation.css.map */
