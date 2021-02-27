@@ -30,22 +30,22 @@
             <!-------   Link  ------->
             <link rel="canonical" href="https://type-error.netlify.app/en/404.htm">
 
-            <link rel="preload" href="/src/stylesheet/404/404.min.css" as="style" type="text/css" />
-            <link rel="preload" href="/src/stylesheet/navigation/navigation.min.css" as="style" type="text/css" />
+            <link rel="preload" href="/src/stylesheet/404/dark/404.min.css" as="style" type="text/css" />
+            <link rel="preload" href="/src/stylesheet/navigation/dark/navigation.min.css" as="style" type="text/css" />
 
             <link rel="preload" href="/src/font/Dreamlight.ttf" as="font" type="font/ttf" crossorigin="" />
             <link rel="preload" href="/src/font/Ogg-Regular.ttf" as="font" type="font/ttf" crossorigin="" />
 
-            <link rel="preload" href="/src/img/shopping-bag-icons8.png" as="image" />
-            <link rel="preload" href="/src/img/globe-icons8.png" as="image" />
+            <link rel="preload" href="/src/img/dark-sun-32-icons8.png" as="image" />
+            <link rel="preload" href="/src/img/dark-globe-32-icons8.png" as="image">
             
 
             <!-------   Stylesheet  ------->
             <!-- 404 -->
-            <link rel="stylesheet" href="/src/stylesheet/404/404.min.css">
+            <link id="theme" rel="stylesheet" href="/src/stylesheet/404/dark/404.min.css">
 
             <!-- Navigation -->
-            <link rel="stylesheet" href="/src/stylesheet/navigation/navigation.min.css">
+            <link id="nav" rel="stylesheet" href="/src/stylesheet/navigation/dark/navigation.min.css">
             
             <!-- Cookie Banner -->
             <link rel="stylesheet" type="text/css" href="/src/stylesheet/cookieBanner/cookieBanner.min.css"/>
@@ -54,9 +54,7 @@
             <!-------   JS  ------->
             <script src="/src/js/preventContext.js"></script>
 
-            <script src="/src/js/cookieBanner.min.js" defer></script>
-
-            <script src="/src/js/light-dark.js"></script>
+            <script src="/src/js/cookieBanner-dark.min.js"></script>
 
             <!-- <script src="src/js/instantclick.min.js" data-no-instant></script>
             <script data-no-instant>InstantClick.init();</script> -->
@@ -67,7 +65,7 @@
 
             <title>TypeError | Page not found</title>
       </head>
-      <body onload="detectTheme()">
+      <body>
             <div class="navigation">
                   <input id="burger" type="checkbox" />
                   <label for="burger">
@@ -88,10 +86,10 @@
                               <img src="/src/img/shopping-bag-icons8.png" alt="The image (or icon) of a shopping bag" width="auto" height="auto" />
                         </a> --> <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
                         <a id="switch" title="Switch between Light / Dark Mode">
-                              <img id="light-dark" src="/src/img/moon-symbol-32-icons8.png" alt="The image (or icon) of the moon. Click here to switch to the Dark Mode." width="auto" height="auto" />
+                              <img id="light-dark" src="/src/img/dark-sun-32-icons8.png" alt="The image (or icon) of the moon. Click here to switch to the Dark Mode." width="auto" height="auto" />
                         </a>    
                         <a href="/de/" id="globe" title="Click here to change the language.">
-                              <img src="/src/img/globe-icons8.png" alt="The image (or icon) of a globe" width="auto" height="auto" />
+                              <img id="lang" src="/src/img/dark-globe-32-icons8.png" alt="The image (or icon) of a globe" width="auto" height="auto" />
                         </a>           
                         <!-- Needs to be inserted: <a href="https://icons8.com/icon/43753/globe">Globe icon by Icons8</a> -->
                   </div>
@@ -100,5 +98,6 @@
                   <br>This site doesn't exists yet.
                   <br><a href="/en/">Go back to start</a></p>
             </div>
+            <script src="/src/js/light-dark-404.js"></script>
       </body>
 </html>
