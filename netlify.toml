@@ -15,38 +15,57 @@
 [[redirects]]
   from = "/src/font/Dreamlight.tff"
   to = "/de/page-not-found.htm"
-  status = 301
+  status = 404
   conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "/src/font/Dreamlight.tff"
   to = "/de/page-not-found.htm"
-  status = 301
+  status = 404
   conditions = {Country = ["de"]}
 
 [[redirects]]
   from = "/src/font/Dreamlight.tff"
   to = "/en/page-not-found.htm"
-  status = 301
+  status = 404
+  
+
+
+[[redirects]]
+  from = "/src/font/ExodusDemo-Regular.tff"
+  to = "/de/page-not-found.htm"
+  status = 404
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/src/font/ExodusDemo-Regular.tff"
+  to = "/de/page-not-found.htm"
+  status = 404
+  conditions = {Country = ["de"]}
+
+[[redirects]]
+  from = "/src/font/ExodusDemo-Regular.tff"
+  to = "/en/page-not-found.htm"
+  status = 404
 
 
 
 [[redirects]]
   from = "/src/font/Ogg-Regular.tff"
   to = "/de/page-not-found.htm"
-  status = 301
+  status = 404
   conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "/src/font/Ogg-Regular.tff"
   to = "/de/page-not-found.htm"
-  status = 301
+  status = 404
   conditions = {Country = ["de"]}
 
 [[redirects]]
   from = "/src/font/Ogg-Regular.tff"
   to = "/en/page-not-found.htm"
-  status = 301
+  status = 404
 
 
 
