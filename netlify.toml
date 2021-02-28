@@ -10,23 +10,45 @@
       X-Content-Type-Options = "nosniff"
       X-Permitted-Cross-Domain-Policies = "none"
 
+
+
 [[redirects]]
-  from = "/src/js/*"
+  from = "/src/font/Dreamlight.tff"
   to = "/de/page-not-found.htm"
   status = 301
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/src/js/*"
+  from = "/src/font/Dreamlight.tff"
   to = "/de/page-not-found.htm"
   status = 301
   conditions = {Country = ["de"]}
 
 [[redirects]]
-  from = "/src/*"
+  from = "/src/font/Dreamlight.tff"
   to = "/en/page-not-found.htm"
   status = 301
+
+
+
+[[redirects]]
+  from = "/src/font/Ogg-Regular.tff"
+  to = "/de/page-not-found.htm"
+  status = 301
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/src/font/Ogg-Regular.tff"
+  to = "/de/page-not-found.htm"
+  status = 301
   conditions = {Country = ["de"]}
+
+[[redirects]]
+  from = "/src/font/Ogg-Regular.tff"
+  to = "/en/page-not-found.htm"
+  status = 301
+
+
 
 [[redirects]]
   from = "/de/*"
