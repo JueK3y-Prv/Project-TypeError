@@ -11,13 +11,13 @@
       X-Permitted-Cross-Domain-Policies = "none"
 
 [[redirects]]
-  from = "/src/*"
+  from = "/src/js/*"
   to = "/de/page-not-found.htm"
   status = 301
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/src/*"
+  from = "/src/js/*"
   to = "/de/page-not-found.htm"
   status = 301
   conditions = {Country = ["de"]}
