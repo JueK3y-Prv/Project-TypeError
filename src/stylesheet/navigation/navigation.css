@@ -5,6 +5,13 @@
   src: url("/src/font/Dreamlight.ttf") format("truetype");
   font-display: swap;
 }
+@font-face {
+  font-family: "Content";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/src/font-download/Serif/Qanaya.ttf");
+  font-display: swap;
+}
 .light {
   --background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   --textColor: #1B1C1E;
