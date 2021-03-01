@@ -7,10 +7,26 @@
 }
 
 @font-face {
+  font-family: 'Navigation-2';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/src/font-download/Sans-Serif/NeueMetana-Regular.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Navigation';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/src/font/Poppins-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Content';
   font-weight: normal;
   font-style: normal;
-  src: url('/src/font-download/Serif/Qanaya.ttf');
+  src: url('/src/font-download/Serif/PlayfairDisplay-VariableFont_wght.ttf');
   font-display: swap;
 }
 
@@ -126,7 +142,7 @@ body {
             text-transform: uppercase;
             color: var(--textColor);
             font-weight: 700;
-            font-family: sans-serif;
+            font-family: 'Navigation', sans-serif;
             display: block;
             padding: 30px;
           }
