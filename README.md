@@ -13,6 +13,7 @@ The website offers clothing products (shoes) for resale. In this project, for th
 - It also includes:
   - Automatic detection for Light / Dark mode
   - Switch between those two modes
+  - Automatic detection of EN or DE language
   - Change between EN and DE
 <br>
 
