@@ -7,9 +7,13 @@ The website offers clothing products (shoes) for resale. In this project, for th
 <br>a visually striking website should be created, which should be fully functional and contain (at least) the following features:
 - Landing Page (Index)
 - Web store
-- About LVM - page
+- About TypeError - page
 - Contact (per Email)
 - Legal (AGB / Terms)
+- It also includes:
+  - Automatic detection for Light / Dark mode
+  - Switch between those two modes
+  - Change between EN and DE
 <br>
 
 ## When will the website be published?
@@ -19,15 +23,16 @@ The process of the site is divided into 4 points.
 - Creation of the website (frontend)
 - Linking the site with backend
 
-The project is currently at the end of the design phase.
+The project is currently in the early phase of "Creation of the website".
+<br>At the moment there are 4 web pages. These are Index and 404 for both languages
 <br>If there is an exact date, this paragraph will be updated _(*)_. 
-###### _(*) Paragraph updated on 16. Febraur 2021_
+###### _(*) Paragraph updated on 01. March 2021_
 <br>
 
 ## What is the URL of the website?
-This question has 3 answers. Currently you can access the site via the [GitHub Pages](https://juek3y.github.io/project-lvm/) or the [Netlify link](https://type-error.netlify.app). However, I want to create a subdomain for juek3y.com so that the site is easier to reach and still includes all the features.
-<br>As above, I will update this article as soon as there is a new link.
-<br>Please note that the website is still a work in progress. Legal information will therefore be filled in with placeholders for now. You may also not get a hint for cookies, although some may already be in use. So assume that the website uses cookies.
+The only working domain is [this one](https://type-error.netlify.app).
+<br>Work is underway to forward an automatic redirect from the GitHub page to this address.
+<br>A domain without a Netlify subdomain does not exist at this time.
 
 <br>
 
