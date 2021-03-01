@@ -171,6 +171,7 @@ body .navigation .icons {
   z-index: 6;
   top: 35px;
   right: 76px;
+  cursor: pointer;
 }
 body .navigation .icons a img {
   -webkit-transition: 0.2s;
