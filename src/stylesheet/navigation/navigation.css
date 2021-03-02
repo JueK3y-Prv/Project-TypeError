@@ -23,7 +23,7 @@
   font-family: "Content";
   font-weight: normal;
   font-style: normal;
-  src: url("/src/font-download/Serif/PlayfairDisplay-VariableFont_wght.ttf");
+  src: url("/src/font/BASKVILL.ttf") format("truetype");
   font-display: swap;
 }
 .light {
