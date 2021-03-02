@@ -2,15 +2,7 @@
   font-family: 'Logo';
   font-weight: normal;
   font-style: normal;
-  src: url('/src/font/Dreamlight.ttf') format('truetype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Navigation-2';
-  font-weight: normal;
-  font-style: normal;
-  src: url('/src/font-download/Sans-Serif/NeueMetana-Regular.otf');
+  src: url('/src/font/Dreamlight.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -18,7 +10,7 @@
   font-family: 'Navigation';
   font-weight: normal;
   font-style: normal;
-  src: url('/src/font/Poppins-Regular.ttf');
+  src: url('/src/font/Poppins-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -26,7 +18,7 @@
   font-family: 'Content';
   font-weight: normal;
   font-style: normal;
-  src: url('/src/font/BASKVILL.ttf') format('truetype');
+  src: url('/src/font/BASKVILL.woff2') format('woff2');
   font-display: swap;
 }
 
