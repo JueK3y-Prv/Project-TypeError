@@ -2,6 +2,8 @@
 
 const lightButton = document.getElementById("light");
 const darkButton = document.getElementById("dark");
+const respLightButton = document.getElementById("resp-light");
+const respDarkButton = document.getElementById("resp-dark");
 const body = document.body;
 
 const theme = localStorage.getItem("theme");
@@ -17,6 +19,7 @@ if (theme) {
 }
 
 // Button Event Handlers
+// Desktop
 lightButton.onclick = () => {
     body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
@@ -25,6 +28,17 @@ lightButton.onclick = () => {
 darkButton.onclick = () => {
     body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
+};
+
+// Responsive
+respLightButton.onclick = () => {
+    body.classList.replace("light", "dark");
+    localStorage.setItem("theme", "dark");
+};
+
+respDarkButton.onclick = () => {
+    body.classList.replace("dark", "light");
+    localStorage.setItem("theme", "light");
 };
 
 function lightCookie() {

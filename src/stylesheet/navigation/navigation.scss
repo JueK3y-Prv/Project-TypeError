@@ -28,10 +28,10 @@
   --banner: #FAFAFA;
   --bannerGrey: #E0E0E0;
   --hoverColor: #0203048a;
-  #light, #light-globe {
+  #resp-dark, #light, #light-globe {
     display: none;
   }
-  #dark, #dark-globe {
+  #resp-light, #dark, #dark-globe {
     display: contents;
   }
 }
@@ -42,10 +42,10 @@
   --banner: #1B1C1E;
   --bannerGrey: #1B1C1E;
   --hoverColor: #BBC6C6;
-  #light, #light-globe {
+  #resp-dark, #light, #light-globe {
     display: contents;
   }
-  #dark, #dark-globe {
+  #resp-light, #dark, #dark-globe {
     display: none;
   }
 }
@@ -124,7 +124,7 @@ body {
         top: 35vh;
         left: 18.25vw;
         right: 20%;
-        > li {
+        > li, .desk {
           opacity: 0;
           transition: .5s;
           transition-delay: 0s;
@@ -142,6 +142,9 @@ body {
             transition: .2s;
             color: var(--hoverColor);
           }
+        }
+        .resp {
+          display: none;
         }
       }
     }
@@ -191,27 +194,62 @@ body {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  body .navigation h1 {
+    left: 46vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .navigation h1 {
+    left: 44vw;
+  }
+}
+
 @media screen and (max-width: 414px) {
-    body {
-      .navigation {
-        h1 {
-          top: 5px;
-          left: 67vw;
-        }
-        input + label {
-          top: 30px;
-          left: 10vw;
-        }
-        input ~ nav {
-          height: 75px;
-          > ul {
-            top: 30vh;
-            right: 28%;
+  body {
+    .navigation {
+      h1 {
+        top: 5px;
+        left: 67vw;
+      }
+      input + label {
+        top: 30px;
+        left: 10vw;
+      }
+      input ~ nav {
+        height: 75px;
+        > ul {
+          top: 22vh;
+          right: 28%;
+          .desk {
+            display: none;
+          }
+          .resp {
+            display: block;
+            padding: 10px;
           }
         }
-        .icons {
-          display: none;
+      }
+      .icons {
+        display: none;
+      }
+    }
+  }
+  @media screen and (max-height: 640px) {
+    body .navigation {
+      input ~ nav {
+        height: 75px;
+        > ul {
+          top: 20vh;
+          li a {
+            padding: 20px;
+          }
+          .resp {
+            padding: 7px;
+          }
         }
       }
     }
   }
+}
