@@ -124,6 +124,7 @@
 	-moz-transition: background-color .2s ease;
 	-ms-transition: background-color .2s ease;
 	-o-transition: background-color .2s ease;
+	transition: background-color .2s ease;
 	&:hover {
 		text-decoration: none;
 	}
