@@ -118,7 +118,7 @@ function lightCookie() {
                         content: { message: "This website uses cookies to ensure you get the best experience on our website.", link: "Learn more", href: "https://www.internetcookies.org", target: "_blank", button: "Got it!" },
                         container: '<div class="wpcc-container {{classes}}">{{children}}</div>',
                         template:
-                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}" tabindex="1">{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn" tabindex="2">{{button}}</a></div>',
+                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}"  >{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn"  >{{button}}</a></div>',
                         pushdown: !1,
                         position: "bottom-left",
                         corners: "",
@@ -406,7 +406,7 @@ function lightCookie() {
                         content: { message: "This website uses cookies to ensure you get the best experience on our website.", link: "Learn more", href: "https://www.internetcookies.org", target: "_blank", button: "Got it!" },
                         container: '<div class="wpcc-container {{classes}}">{{children}}</div>',
                         template:
-                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}" tabindex="1">{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn" tabindex="2">{{button}}</a></div>',
+                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}"  >{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn"  >{{button}}</a></div>',
                         pushdown: !1,
                         position: "bottom-left",
                         corners: "",
@@ -711,7 +711,7 @@ function darkCookie() {
                         content: { message: "This website uses cookies to ensure you get the best experience on our website.", link: "Learn more", href: "https://www.internetcookies.org", target: "_blank", button: "Got it!" },
                         container: '<div class="wpcc-container {{classes}}">{{children}}</div>',
                         template:
-                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}" tabindex="1">{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn" tabindex="2">{{button}}</a></div>',
+                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}"  >{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn"  >{{button}}</a></div>',
                         pushdown: !1,
                         position: "bottom-left",
                         corners: "",
@@ -999,7 +999,7 @@ function darkCookie() {
                         content: { message: "This website uses cookies to ensure you get the best experience on our website.", link: "Learn more", href: "https://www.internetcookies.org", target: "_blank", button: "Got it!" },
                         container: '<div class="wpcc-container {{classes}}">{{children}}</div>',
                         template:
-                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}" tabindex="1">{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn" tabindex="2">{{button}}</a></div>',
+                            '<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}"  >{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn"  >{{button}}</a></div>',
                         pushdown: !1,
                         position: "bottom-left",
                         corners: "",
