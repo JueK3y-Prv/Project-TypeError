@@ -4,17 +4,31 @@ const lightButton = document.getElementById("light");
 const darkButton = document.getElementById("dark");
 const respLightButton = document.getElementById("resp-light");
 const respDarkButton = document.getElementById("resp-dark");
+const favApp = document.getElementById("fav-app");
+const favPNG = document.getElementById("fav-png");
+const favICO = document.getElementById("fav-ico");
 const body = document.body;
 
 const theme = localStorage.getItem("theme");
 
 if (theme) {
-    darkCookie();
     body.classList.add(theme);
-} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    body.classList.replace("light", "dark");
+    favApp.href = "/src/img/favicon-dark.png";
+    favPNG.href = "/src/img/favicon-dark.png";
+    favICO.href = "/src/img/favicon-dark.ico";
     darkCookie();
-} else {
+}
+else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    body.classList.replace("light", "dark");
+    favApp.href = "/src/img/favicon-dark.png";
+    favPNG.href = "/src/img/favicon-dark.png";
+    favICO.href = "/src/img/favicon-dark.ico";
+    darkCookie();
+}
+else {
+    favApp.href = "/src/img/favicon.png";
+    favPNG.href = "/src/img/favicon.png";
+    favICO.href = "/src/img/favicon.ico";
     lightCookie();
 }
 
@@ -23,22 +37,34 @@ if (theme) {
 lightButton.onclick = () => {
     body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
+    favApp.href = "/src/img/favicon.png";
+    favPNG.href = "/src/img/favicon.png";
+    favICO.href = "/src/img/favicon.ico";
 };
 
 darkButton.onclick = () => {
     body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
+    favApp.href = "/src/img/favicon-dark.png";
+    favPNG.href = "/src/img/favicon-dark.png";
+    favICO.href = "/src/img/favicon-dark.ico";
 };
 
 // Responsive
 respLightButton.onclick = () => {
     body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
+    favApp.href = "/src/img/favicon-dark.png";
+    favPNG.href = "/src/img/favicon-dark.png";
+    favICO.href = "/src/img/favicon-dark.ico";
 };
 
 respDarkButton.onclick = () => {
     body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
+    favApp.href = "/src/img/favicon.png";
+    favPNG.href = "/src/img/favicon.png";
+    favICO.href = "/src/img/favicon.ico";
 };
 
 function lightCookie() {
