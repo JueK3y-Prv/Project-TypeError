@@ -13,22 +13,22 @@ const theme = localStorage.getItem("theme");
 
 if (theme) {
     body.classList.add(theme);
-    favApp.href = "/src/img/favicon-dark.png";
-    favPNG.href = "/src/img/favicon-dark.png";
-    favICO.href = "/src/img/favicon-dark.ico";
+    favApp.href = "/src/img/favicon/favicon-dark.png";
+    favPNG.href = "/src/img/favicon/favicon-dark.png";
+    favICO.href = "/src/img/favicon/favicon-dark.ico";
     darkCookie();
 }
 else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
     body.classList.replace("light", "dark");
-    favApp.href = "/src/img/favicon-dark.png";
-    favPNG.href = "/src/img/favicon-dark.png";
-    favICO.href = "/src/img/favicon-dark.ico";
+    favApp.href = "/src/img/favicon/favicon-dark.png";
+    favPNG.href = "/src/img/favicon/favicon-dark.png";
+    favICO.href = "/src/img/favicon/favicon-dark.ico";
     darkCookie();
 }
 else {
-    favApp.href = "/src/img/favicon.png";
-    favPNG.href = "/src/img/favicon.png";
-    favICO.href = "/src/img/favicon.ico";
+    favApp.href = "/src/img/favicon/favicon.png";
+    favPNG.href = "/src/img/favicon/favicon.png";
+    favICO.href = "/src/img/favicon/favicon.ico";
     lightCookie();
 }
 
@@ -37,34 +37,34 @@ else {
 lightButton.onclick = () => {
     body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
-    favApp.href = "/src/img/favicon.png";
-    favPNG.href = "/src/img/favicon.png";
-    favICO.href = "/src/img/favicon.ico";
+    favApp.href = "/src/img/favicon/favicon.png";
+    favPNG.href = "/src/img/favicon/favicon.png";
+    favICO.href = "/src/img/favicon/favicon.ico";
 };
 
 darkButton.onclick = () => {
     body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
-    favApp.href = "/src/img/favicon-dark.png";
-    favPNG.href = "/src/img/favicon-dark.png";
-    favICO.href = "/src/img/favicon-dark.ico";
+    favApp.href = "/src/img/favicon/favicon-dark.png";
+    favPNG.href = "/src/img/favicon/favicon-dark.png";
+    favICO.href = "/src/img/favicon/favicon-dark.ico";
 };
 
 // Responsive
 respLightButton.onclick = () => {
     body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
-    favApp.href = "/src/img/favicon-dark.png";
-    favPNG.href = "/src/img/favicon-dark.png";
-    favICO.href = "/src/img/favicon-dark.ico";
+    favApp.href = "/src/img/favicon/favicon-dark.png";
+    favPNG.href = "/src/img/favicon/favicon-dark.png";
+    favICO.href = "/src/img/favicon/favicon-dark.ico";
 };
 
 respDarkButton.onclick = () => {
     body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
-    favApp.href = "/src/img/favicon.png";
-    favPNG.href = "/src/img/favicon.png";
-    favICO.href = "/src/img/favicon.ico";
+    favApp.href = "/src/img/favicon/favicon.png";
+    favPNG.href = "/src/img/favicon/favicon.png";
+    favICO.href = "/src/img/favicon/favicon.ico";
 };
 
 function lightCookie() {
