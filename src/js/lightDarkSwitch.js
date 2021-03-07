@@ -13,7 +13,6 @@ const theme = localStorage.getItem("theme");
 
 if (theme) {
     body.classList.add(theme);
-
     if (body.classList.contains("dark")) {
         darkCookie();
         favApp.href = "/src/img/favicon/favicon-dark.png";
@@ -44,16 +43,16 @@ else {
 // Button Event Handlers
 // Desktop
 lightButton.onclick = () => {
-    body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
+    body.classList.replace("dark", "light");
     favApp.href = "/src/img/favicon/favicon.png";
     favPNG.href = "/src/img/favicon/favicon.png";
     favICO.href = "/src/img/favicon/favicon.ico";
 };
 
 darkButton.onclick = () => {
-    body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
+    body.classList.replace("light", "dark");
     favApp.href = "/src/img/favicon/favicon-dark.png";
     favPNG.href = "/src/img/favicon/favicon-dark.png";
     favICO.href = "/src/img/favicon/favicon-dark.ico";
@@ -61,16 +60,16 @@ darkButton.onclick = () => {
 
 // Responsive
 respLightButton.onclick = () => {
-    body.classList.replace("light", "dark");
     localStorage.setItem("theme", "dark");
+    body.classList.replace("light", "dark");
     favApp.href = "/src/img/favicon/favicon-dark.png";
     favPNG.href = "/src/img/favicon/favicon-dark.png";
     favICO.href = "/src/img/favicon/favicon-dark.ico";
 };
 
 respDarkButton.onclick = () => {
-    body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
+    body.classList.replace("dark", "light");
     favApp.href = "/src/img/favicon/favicon.png";
     favPNG.href = "/src/img/favicon/favicon.png";
     favICO.href = "/src/img/favicon/favicon.ico";
