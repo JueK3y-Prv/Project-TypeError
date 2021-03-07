@@ -13,9 +13,6 @@ const theme = localStorage.getItem("theme");
 
 if (theme) {
     body.classList.add(theme);
-    favApp.href = "/src/img/favicon/favicon-dark.png";
-    favPNG.href = "/src/img/favicon/favicon-dark.png";
-    favICO.href = "/src/img/favicon/favicon-dark.ico";
     darkCookie();
 }
 else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
