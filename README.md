@@ -21,8 +21,8 @@ The website offers clothing products (shoes) for resale. In this project, for th
 The process of the site is divided into 4 points.
 - Planning
 - Design phase
-- Creation of the website (frontend)
-- Linking the site with backend
+- Creation of the website (frontend - static website)
+- Linking the site with backend (dynamic website)
 
 The project is currently in the early phase of "Creation of the website".
 <br>At the moment there are 4 web pages. These are Index and 404 for both languages
