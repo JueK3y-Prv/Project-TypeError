@@ -121,6 +121,21 @@ body .navigation input ~ nav {
           transition-delay: 0.5s;
   overflow: hidden;
 }
+body .navigation input ~ nav .logo a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+body .navigation input ~ nav .logo a picture img {
+  padding-left: 45vw;
+  margin-top: -50px;
+  width: 200px;
+  height: auto;
+}
+body .navigation input ~ nav .logo a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0.55;
+}
 body .navigation input ~ nav > ul {
   text-align: center;
   position: absolute;
@@ -179,7 +194,7 @@ body .navigation h1 {
 }
 body .navigation h1 > span {
   text-transform: none;
-  opacity: 0.5;
+  opacity: 0.55;
   font-weight: 300;
   font-size: 12px;
 }
@@ -204,26 +219,27 @@ body .navigation .icons #left {
 }
 
 @media screen and (max-width: 1024px) {
-  body .navigation h1 {
-    left: 46vw;
+  .logo picture img {
+    margin-left: -2.5vw;
   }
 }
 @media screen and (max-width: 768px) {
-  body .navigation h1 {
-    left: 44vw;
+  .logo picture img {
+    margin-left: -8.5vw;
   }
 }
 @media screen and (max-width: 414px) {
-  body .navigation h1 {
-    top: 5px;
-    left: 67vw;
-  }
   body .navigation input + label {
     top: 30px;
     left: 10vw;
   }
   body .navigation input ~ nav {
     height: 75px;
+  }
+  body .navigation input ~ nav .logo picture img {
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 15vw;
   }
   body .navigation input ~ nav > ul {
     top: 22vh;
