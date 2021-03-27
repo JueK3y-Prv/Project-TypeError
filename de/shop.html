@@ -9,8 +9,8 @@
             <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
             <meta property="og:site_name" content="TypeError">
-            <meta property="og:url" content="https://type-error.netlify.app/de/page-not-found">
-            <meta property="og:title" content="TypeError | Seite nicht gefunden">
+            <meta property="og:url" content="https://type-error.netlify.app/de/shop">
+            <meta property="og:title" content="TypeError | Shop">
             <meta property="og:type" content="webshop">
             <meta property="og:description" content="TypeError | An online store for the sale of branded shoes | Official Website">
             <meta property="og:locale" content="de_DE">
@@ -20,12 +20,19 @@
             <meta name="description" content="TypeError | An online store for the sale of branded shoes | Official Website">
             <meta name="keywords" content="webshop, onlineshop, shoes, branded, resale, nike, vans, addiads, offical, typeerror, type-error"/>
             <meta name="content-language" content="de">
+            
+            <meta name="robots" content="index, follow">
+            <meta name="googlebot" content="index, follow">
+            <meta name="revisit" content="After 10 days">
 
+            <meta name="color-scheme" content="dark light">
 
             <!-------   Link  ------->
-            <link rel="canonical" href="https://type-error.netlify.app/de/page-not-found">
+            <link rel="alternate" href="https://type-error.netlify.app/en/shop" hreflang="en">
+            <link rel="alternate" href="https://type-error.netlify.app/de/shop" hreflang="x-default">
+            <link rel="canonical" href="https://type-error.netlify.app/de/shop">
 
-            <link rel="preload" href="/src/stylesheet/404/404.min.css" as="style" type="text/css" />
+            <link rel="preload" href="/src/stylesheet/shop/shop.min.css" as="style" type="text/css" />
             <link rel="preload" href="/src/stylesheet/navigation/navigation.min.css" as="style" type="text/css" />
 
             <link rel="preload" href="/src/font/Dreamlight.woff2" as="font" type="font/woff2" crossorigin="" />
@@ -40,7 +47,7 @@
 
             <!-------   Stylesheet  ------->
             <!-- 404 -->
-            <link id="theme" rel="stylesheet" href="/src/stylesheet/404/404.min.css" type="text/css" />
+            <link id="theme" rel="stylesheet" href="/src/stylesheet/shop/shop.min.css" type="text/css" />
 
             <!-- Navigation -->
             <link id="nav" rel="stylesheet" href="/src/stylesheet/navigation/navigation.min.css" type="text/css" />
@@ -64,7 +71,7 @@
             <link id="fav-ico" rel="shortcut icon" href="/src/img/favicon/favicon.ico" type="image/ico" />
 
 
-            <title>TypeError | Seite nicht gefunden</title>
+            <title>TypeError | Shop</title>
       </head>
       <body class="light">
             <div class="navigation">
@@ -93,7 +100,7 @@
                         <a id="dark" href="" title="Wechsle zum Dark Mode">
                               <img id="left" src="/src/img/moon-symbol-32-icons8.png" alt="Das Bild des Mondes. Klicke hier, um zum Dark Mode zu wechseln." width="auto" height="auto" />
                         </a>   
-                        <a href="/en/" id="dark-globe" title="Ändere die Sprache zu EN">
+                        <a href="/en/shop" id="dark-globe" title="Ändere die Sprache zu EN">
                               <img src="/src/img/globe-icons8.png" alt="Das Bild eines Globus" width="auto" height="auto" />
                         </a>    
                         
@@ -101,16 +108,23 @@
                         <a id="light" href="" title="Wechsle zum Light Mode">
                               <img id="left" src="/src/img/dark-sun-32-icons8.png" alt="Das Bild der Sonne. Klicke hier, um zum Light Mode zu wechseln." width="auto" height="auto" />
                         </a>   
-                        <a href="/en/" id="light-globe" title="Ändere die Sprache zu EN">
+                        <a href="/en/shop" id="light-globe" title="Ändere die Sprache zu EN">
                               <img src="/src/img/dark-globe-32-icons8.png" alt="Das Bild eines Globus" width="auto" height="auto" />
                         </a>      
                         <!-- Needs to be inserted: <a href="https://icons8.com/icon/43753/globe">Globe icon by Icons8</a> -->
                   </div>
             </div>
             <div class="content">
-                  <p>Ups! Du bist zu früh dran.
-                  <br>Diese Seite gibt es noch gar nicht.
-                  <br><a href="/de/">Hier gehts zurück zum Start</a></p>
+              <div class="ec-cart-widget"></div>
+              <div>
+                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?52113026&data_platform=code&data_date=2021-03-15" charset="utf-8"></script>
+                <script type="text/javascript">Ecwid.init();</script>
+              </div>
+
+              <div id="my-store-52113026"></div>
+              <div>
+                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?52113026&data_platform=code&data_date=2021-03-15" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-52113026");</script>
+              </div>
             </div>
       </body>
 </html>

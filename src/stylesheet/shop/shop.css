@@ -1,0 +1,65 @@
+body .navigation h1:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0.55;
+}
+body .content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .content ::-moz-selection {
+  color: #CEDBF0;
+  background: #737d8d;
+}
+body .content ::selection {
+  color: #CEDBF0;
+  background: #737d8d;
+}
+body .content ::-moz-selection {
+  color: #CEDBF0;
+  background: #737d8d;
+}
+body .content p {
+  position: relative;
+  font-family: "Content", "Times New Roman", Times, serif;
+  font-size: 3.5vh;
+  text-align: center;
+  color: var(--textColor);
+}
+body .content p a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: underline;
+  -webkit-text-decoration-color: lightskyblue;
+  text-decoration-color: lightskyblue;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+}
+body .content p a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: var(--hoverColor);
+}
+body a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+@media screen and (max-width: 414px) {
+  body .content p {
+    font-size: 3vh;
+  }
+}
+/*# sourceMappingURL=shop.css.map */
