@@ -28,10 +28,10 @@
   --banner: #FAFAFA;
   --bannerGrey: #E0E0E0;
   --hoverColor: #0203048a;
-  .resp-dark, #light, #light-globe {
+  #resp-dark, #light, #light-globe {
     display: none;
   }
-  .resp-light, #dark, #dark-globe {
+  #resp-light, #dark, #dark-globe {
     display: contents;
   }
 }
@@ -42,10 +42,10 @@
   --banner: #1B1C1E;
   --bannerGrey: #1B1C1E;
   --hoverColor: #BBC6C6;
-  .resp-dark, #light, #light-globe {
+  #resp-dark, #light, #light-globe {
     display: contents;
   }
-  .resp-light, #dark, #dark-globe {
+  #resp-light, #dark, #dark-globe {
     display: none;
   }
 }
