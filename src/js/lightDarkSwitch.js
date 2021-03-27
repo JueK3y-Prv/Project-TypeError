@@ -7,6 +7,7 @@ const respDarkButton = document.getElementById("resp-dark");
 const favApp = document.getElementById("fav-app");
 const favPNG = document.getElementById("fav-png");
 const favICO = document.getElementById("fav-ico");
+const img = document.getElementById("img");
 const body = document.body;
 
 const theme = localStorage.getItem("theme");
@@ -15,12 +16,15 @@ function lightFavicon() {
     favApp.href = "/src/img/favicon/favicon.png";
     favPNG.href = "/src/img/favicon/favicon.png";
     favICO.href = "/src/img/favicon/favicon.ico";
+    img.src = "/src/img/TypeError-Logo-light.png";
+
 }
 
 function darkFavicon() {
     favApp.href = "/src/img/favicon/favicon-dark.png";
     favPNG.href = "/src/img/favicon/favicon-dark.png";
     favICO.href = "/src/img/favicon/favicon-dark.ico";
+    img.src = "/src/img/TypeError-Logo-dark.png";
 }
 
 function lightCookie() {

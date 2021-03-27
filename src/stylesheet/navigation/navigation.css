@@ -26,10 +26,10 @@
   --bannerGrey: #E0E0E0;
   --hoverColor: #0203048a;
 }
-.light #resp-dark, .light #light, .light #light-globe {
+.light .resp-dark, .light #light, .light #light-globe {
   display: none;
 }
-.light #resp-light, .light #dark, .light #dark-globe {
+.light .resp-light, .light #dark, .light #dark-globe {
   display: contents;
 }
 
@@ -40,10 +40,10 @@
   --bannerGrey: #1B1C1E;
   --hoverColor: #BBC6C6;
 }
-.dark #resp-dark, .dark #light, .dark #light-globe {
+.dark .resp-dark, .dark #light, .dark #light-globe {
   display: contents;
 }
-.dark #resp-light, .dark #dark, .dark #dark-globe {
+.dark .resp-light, .dark #dark, .dark #dark-globe {
   display: none;
 }
 
