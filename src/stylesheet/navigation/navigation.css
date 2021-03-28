@@ -236,10 +236,10 @@ body .navigation .icons #left {
   body .navigation input ~ nav {
     height: 75px;
   }
-  body .navigation input ~ nav .logo picture img {
-    width: 150px;
-    padding-top: -62px;
-    margin-left: 7vw;
+  body .navigation input ~ nav .logo a picture img {
+    width: 180px;
+    margin-top: -55px;
+    margin-left: 11vw;
   }
   body .navigation input ~ nav > ul {
     top: 22vh;
