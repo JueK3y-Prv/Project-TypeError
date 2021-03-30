@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "Logo";
-  font-weight: normal;
-  font-style: normal;
-  src: url("/src/font/Dreamlight.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
   font-family: "Navigation";
   font-weight: normal;
   font-style: normal;
@@ -45,6 +38,10 @@
 }
 .dark #resp-light, .dark #dark, .dark #dark-globe {
   display: none;
+}
+
+html#ecwid_html body#ecwid_body [class^=ec-minicart] {
+  margin: 0 2px !important;
 }
 
 body {
@@ -199,6 +196,12 @@ body .navigation h1 > span {
   font-size: 12px;
 }
 body .navigation .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   z-index: 6;
   top: 35px;

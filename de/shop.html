@@ -35,7 +35,6 @@
             <link rel="preload" href="/src/stylesheet/shop/shop.min.css" as="style" type="text/css" />
             <link rel="preload" href="/src/stylesheet/navigation/navigation.min.css" as="style" type="text/css" />
 
-            <link rel="preload" href="/src/font/Dreamlight.woff2" as="font" type="font/woff2" crossorigin="" />
             <link rel="preload" href="/src/font/BASKVILL.woff2" as="font" type="font/woff2" crossorigin="" />
             <link rel="preload" href="/src/font/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin="" />
 
@@ -59,7 +58,7 @@
             <!-------   JS  ------->
             <script async src="/src/js/preventContext.js"></script>
 
-            <script defer src="/src/js/lightDarkSwitch.min.js"></script>
+            <script defer src="/src/js/lightDarkSwitch.js"></script>
 
             <!-- <script src="/src/js/instantclick.min.js" data-no-instant></script>
             <script data-no-instant>InstantClick.init();</script> -->
@@ -99,6 +98,13 @@
                         </ul>  
                   </nav>
                   <div class="icons">
+                        <a title="Du hast noch nichts in deinem Einkaufskorb.">
+                              <div id="shopping-bag" data-custom-icon-url="/src/img/shopping-bag-icons8.png" class="ec-cart-widget"></div>
+                              <div>
+                              <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?52113026&data_platform=code&data_date=2021-03-15" charset="utf-8"></script>
+                              <script type="text/javascript">Ecwid.init();</script>
+                              </div>
+                        </a>
                         <!-- <a href="#" id="bag" title="Du hast noch nichts in deinem Einkaufskorb.">
                               <img src="/src/img/shopping-bag-icons8.png" alt="Das Bild einer Einkaufstasche" width="auto" height="auto" />
                         </a> --> <!-- Needs to be inserted: <a href="https://icons8.com/icon/47615/shopping-bag">Shopping Bag icon by Icons8</a> -->
@@ -118,15 +124,10 @@
                               <img src="/src/img/dark-globe-32-icons8.png" alt="Das Bild eines Globus" width="auto" height="auto" />
                         </a>      
                         <!-- Needs to be inserted: <a href="https://icons8.com/icon/43753/globe">Globe icon by Icons8</a> -->
+                        <!-- Needs to be inserted: Icons by Icons8 with link -->
                   </div>
             </div>
             <div class="content">
-              <div class="ec-cart-widget"></div>
-              <div>
-                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?52113026&data_platform=code&data_date=2021-03-15" charset="utf-8"></script>
-                <script type="text/javascript">Ecwid.init();</script>
-              </div>
-
               <div id="my-store-52113026"></div>
               <div>
                 <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?52113026&data_platform=code&data_date=2021-03-15" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-52113026");</script>

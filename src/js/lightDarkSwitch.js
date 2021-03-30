@@ -8,23 +8,26 @@ const favApp = document.getElementById("fav-app");
 const favPNG = document.getElementById("fav-png");
 const favICO = document.getElementById("fav-ico");
 const img = document.getElementById("img");
+const bag = document.getElementById("shopping-bag");
 const body = document.body;
 
 const theme = localStorage.getItem("theme");
 
-function lightFavicon() {
+function lightIcon() {
     favApp.href = "/src/img/favicon/favicon.png";
     favPNG.href = "/src/img/favicon/favicon.png";
     favICO.href = "/src/img/favicon/favicon.ico";
     img.src = "/src/img/TypeError-Logo-light.png";
+    bag.setAttribute("data-custom-icon-url", "/src/img/shopping-bag-icons8.png")
 
 }
 
-function darkFavicon() {
+function darkIcon() {
     favApp.href = "/src/img/favicon/favicon-dark.png";
     favPNG.href = "/src/img/favicon/favicon-dark.png";
     favICO.href = "/src/img/favicon/favicon-dark.ico";
     img.src = "/src/img/TypeError-Logo-dark.png";
+    bag.setAttribute("data-custom-icon-url", "/src/img/dark-shopping-bag-32-icons8.png")
 }
 
 function lightCookie() {
@@ -1217,20 +1220,20 @@ if (theme) {
     body.classList.add(theme);
     if (body.classList.contains("dark")) {
         darkCookie();
-        darkFavicon();
+        darkIcon();
     }
     else {
-        lightFavicon();
+        lightIcon();
         lightCookie();
     }
 }
 else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
     body.classList.replace("light", "dark");
     darkCookie();
-    darkFavicon();
+    darkIcon();
 }
 else {
-    lightFavicon();
+    lightIcon();
     lightCookie();
 }
 
@@ -1239,24 +1242,24 @@ else {
 lightButton.onclick = () => {
     localStorage.setItem("theme", "light");
     body.classList.replace("dark", "light");
-    lightFavicon();
+    lightIcon();
 };
 
 darkButton.onclick = () => {
     localStorage.setItem("theme", "dark");
     body.classList.replace("light", "dark");
-    darkFavicon();
+    darkIcon();
 };
 
 // Responsive
 respLightButton.onclick = () => {
     localStorage.setItem("theme", "dark");
     body.classList.replace("light", "dark");
-    darkFavicon();
+    darkIcon();
 };
 
 respDarkButton.onclick = () => {
     localStorage.setItem("theme", "light");
     body.classList.replace("dark", "light");
-    lightFavicon();
+    lightIcon();
 };
