@@ -1,11 +1,12 @@
 body {
+  background: var(--banner) !important;
   .navigation h1:hover {
       transition: .2s;
       opacity: .55;
   }
   .content {
     position: absolute;
-    top: 0;
+    top: 10vh;
     right: 0;
     bottom: 0;
     left: 0;
@@ -46,9 +47,23 @@ body {
   }
 }
 
+@media screen and (max-width: 1920px) {
+  body .content {
+    top: 15vh;
+  }
+}
+
+@media screen and (max-width: 1378px) {
+  body .content {
+    top: 65vh;
+  }
+}
 
 @media screen and (max-width: 414px) {
   body {
+    .content {
+      top: 105vh;
+    }
     .content p {
       font-size: 3vh;
     }

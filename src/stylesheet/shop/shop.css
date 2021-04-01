@@ -1,3 +1,6 @@
+body {
+  background: var(--banner) !important;
+}
 body .navigation h1:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -5,7 +8,7 @@ body .navigation h1:hover {
 }
 body .content {
   position: absolute;
-  top: 0;
+  top: 10vh;
   right: 0;
   bottom: 0;
   left: 0;
@@ -57,7 +60,20 @@ body a {
   color: var(--textColor);
 }
 
+@media screen and (max-width: 1920px) {
+  body .content {
+    top: 15vh;
+  }
+}
+@media screen and (max-width: 1378px) {
+  body .content {
+    top: 65vh;
+  }
+}
 @media screen and (max-width: 414px) {
+  body .content {
+    top: 105vh;
+  }
   body .content p {
     font-size: 3vh;
   }
