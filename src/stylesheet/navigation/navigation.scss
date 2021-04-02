@@ -28,6 +28,11 @@
   #resp-light, #dark, #dark-globe {
     display: contents;
   }
+  //Scrollbar color
+  --backgroundSb: #8899b3;
+  --backgroundSbHover: #737d8d;
+  --colorSb: #e7e5e5;
+
 }
 
 .dark {
@@ -44,6 +49,11 @@
   #resp-light, #dark, #dark-globe {
     display: none;
   }
+  //Scrollbar color
+  --backgroundSb: #6e7b8f;
+  --backgroundSbHover: #535a64;
+  --colorSb: #292a2c;
+
 }
 html#ecwid_html body#ecwid_body [class^='ec-minicart'] {
   margin: 0 2px !important;       
