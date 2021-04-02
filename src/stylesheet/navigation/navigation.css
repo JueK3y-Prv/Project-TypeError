@@ -17,7 +17,8 @@
   --textColor: #1B1C1E;
   --banner: #FAFAFA;
   --bannerGrey: #E0E0E0;
-  --hoverColor: #0203048a;
+  --active: #828d8d;
+  --hoverColor: var(--active);
 }
 .light #resp-dark, .light #light, .light #light-globe {
   display: none;
@@ -31,7 +32,8 @@
   --textColor: #FAFAFA;
   --banner: #1B1C1E;
   --bannerGrey: #1B1C1E;
-  --hoverColor: #BBC6C6;
+  --active: #9aa3a3;
+  --hoverColor: var(--active);
 }
 .dark #resp-dark, .dark #light, .dark #light-globe {
   display: contents;
@@ -42,6 +44,10 @@
 
 html#ecwid_html body#ecwid_body [class^=ec-minicart] {
   margin: 0 2px !important;
+}
+
+a {
+  cursor: s;
 }
 
 body {
@@ -121,6 +127,7 @@ body .navigation input ~ nav {
 body .navigation input ~ nav .logo a {
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  cursor: pointer;
 }
 body .navigation input ~ nav .logo a picture img {
   padding-left: 45vw;
@@ -149,6 +156,7 @@ body .navigation input ~ nav > ul > li, body .navigation input ~ nav > ul .desk 
           transition-delay: 0s;
 }
 body .navigation input ~ nav > ul > li > a, body .navigation input ~ nav > ul .desk > a {
+  cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   text-decoration: none;
@@ -158,6 +166,9 @@ body .navigation input ~ nav > ul > li > a, body .navigation input ~ nav > ul .d
   font-family: "Navigation", sans-serif;
   display: block;
   padding: 30px;
+}
+body .navigation input ~ nav > ul > li a#active, body .navigation input ~ nav > ul .desk a#active {
+  color: var(--active);
 }
 body .navigation input ~ nav > ul > li a:hover, body .navigation input ~ nav > ul .desk a:hover {
   -webkit-transition: 0.2s;
