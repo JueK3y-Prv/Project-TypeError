@@ -27,6 +27,5 @@ document.onkeydown = function(e) {
 }
 
 setTimeout(function() {
-    console.clear();
-    console.log('👋 Hey there! You found a secret cookie 🍪');
+    console.log('-------------------------------------------\n👋 Hey there! You found a secret cookie 🍪\n-------------------------------------------');
 }, 3000);
