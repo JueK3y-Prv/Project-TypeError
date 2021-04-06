@@ -34,38 +34,38 @@
 
 
 [[redirects]]
-  from = "/src/font/ExodusDemo-Regular.tff"
+  from = "/src/font/Poppins-Regular.woff2"
   to = "/de/page-not-found.htm"
   status = 404
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/src/font/ExodusDemo-Regular.tff"
+  from = "/src/font/Poppins-Regular.woff2"
   to = "/de/page-not-found.htm"
   status = 404
   conditions = {Country = ["de"]}
 
 [[redirects]]
-  from = "/src/font/ExodusDemo-Regular.tff"
+  from = "/src/font/Poppins-Regular.woff2"
   to = "/en/page-not-found.htm"
   status = 404
 
 
 
 [[redirects]]
-  from = "/src/font/Ogg-Regular.tff"
+  from = "/src/font/BASKVILL.woff2"
   to = "/de/page-not-found.htm"
   status = 404
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/src/font/Ogg-Regular.tff"
+  from = "/src/font/BASKVILL.woff2"
   to = "/de/page-not-found.htm"
   status = 404
   conditions = {Country = ["de"]}
 
 [[redirects]]
-  from = "/src/font/Ogg-Regular.tff"
+  from = "/src/font/BASKVILL.woff2"
   to = "/en/page-not-found.htm"
   status = 404
 
