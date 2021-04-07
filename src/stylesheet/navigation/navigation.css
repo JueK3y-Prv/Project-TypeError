@@ -34,7 +34,7 @@
   --background: linear-gradient(to right, #2c2e31 0%, #2c2e33 100%);
   --textColor: #FAFAFA;
   --banner: #1B1C1E;
-  --bannerGrey: #1B1C1E;
+  --bannerGrey: #292a2e;
   --active: #9aa3a3;
   --hoverColor: var(--active);
   --backgroundSb: #6e7b8f;
@@ -130,13 +130,15 @@ body .navigation input ~ nav {
           transition-delay: 0.5s;
   overflow: hidden;
 }
+body .navigation input ~ nav .logo {
+  text-align: center;
+}
 body .navigation input ~ nav .logo a {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   cursor: pointer;
 }
 body .navigation input ~ nav .logo a picture img {
-  padding-left: 45vw;
   margin-top: -50px;
   width: 200px;
   height: auto;
@@ -238,16 +240,6 @@ body .navigation .icons #left {
   padding-right: 1vw;
 }
 
-@media screen and (max-width: 1024px) {
-  .logo picture img {
-    margin-left: -2.5vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  .logo picture img {
-    margin-left: -8.5vw;
-  }
-}
 @media screen and (max-width: 414px) {
   body .navigation input + label {
     top: 30px;
@@ -256,10 +248,12 @@ body .navigation .icons #left {
   body .navigation input ~ nav {
     height: 75px;
   }
+  body .navigation input ~ nav .logo {
+    text-align: right;
+  }
   body .navigation input ~ nav .logo a picture img {
     width: 180px;
     margin-top: -55px;
-    margin-left: 11vw;
   }
   body .navigation input ~ nav > ul {
     top: 22vh;

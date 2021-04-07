@@ -39,7 +39,7 @@
   --background: linear-gradient(to right, #2c2e31 0%, #2c2e33 100%);
   --textColor: #FAFAFA;
   --banner: #1B1C1E;
-  --bannerGrey: #1B1C1E;
+  --bannerGrey: #292a2e;
   --active: #9aa3a3;
   --hoverColor: var(--active);
   //--hoverColor: #BBC6C6;
@@ -130,19 +130,21 @@ body {
       transition: .5s;
       transition-delay: .5s;
       overflow: hidden;
-      .logo a {
-        transition: .2s;
-        cursor: pointer;
-        picture img {
-          padding-left: 45vw;
-          margin-top: -50px;
-          width: 200px;
-          height: auto;
+      .logo {
+        text-align: center;
+        a {
+          transition: .2s;
+          cursor: pointer;
+          picture img {
+            margin-top: -50px;
+            width: 200px;
+            height: auto;
+          }
         }
-      }
-      .logo a:hover {
-        transition: .2s;
-        opacity: 0.55;
+        a:hover {
+          transition: .2s;
+          opacity: 0.55;
+        }
       }
       > ul {
         text-align: center;
@@ -228,18 +230,6 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .logo picture img {
-    margin-left: -2.5vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .logo picture img {
-    margin-left: -8.5vw;
-  }
-}
-
 @media screen and (max-width: 414px) {
   body {
     .navigation {
@@ -248,10 +238,12 @@ body {
         left: 10vw;
       }
       input ~ nav {
-        .logo a picture img {
-          width: 180px;
-          margin-top: -55px;
-          margin-left: 11vw;
+        .logo {
+          text-align: right;
+          a picture img {
+            width: 180px;
+            margin-top: -55px;
+          }
         }
         height: 75px;
         > ul {
