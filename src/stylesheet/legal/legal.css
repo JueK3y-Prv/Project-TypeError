@@ -59,8 +59,14 @@ body a {
 }
 
 @media screen and (max-width: 414px) {
-  body .content p {
+  body .content {
+    line-height: 32px;
+  }
+  body .content h2 {
     font-size: 3vh;
+  }
+  body .content p {
+    font-size: 2vh;
   }
 }
 /*# sourceMappingURL=legal.css.map */

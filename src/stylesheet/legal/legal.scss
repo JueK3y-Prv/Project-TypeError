@@ -57,8 +57,14 @@ body {
 
 @media screen and (max-width: 414px) {
   body {
-    .content p {
-      font-size: 3vh;
+    .content {
+      line-height: 32px;
+      h2 {
+        font-size: 3vh;
+      }
+      p {
+        font-size: 2vh;
+      }
     }
   }
 }
