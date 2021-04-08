@@ -242,7 +242,7 @@ body .navigation .icons .left {
 
 @media screen and (max-width: 413px) {
   body .ec-minicart__icon {
-    width: 35px !important;
+    width: 25px !important;
     height: auto !important;
   }
   body .navigation input + label {
@@ -268,7 +268,7 @@ body .navigation .icons .left {
     padding: 10px;
   }
   body .navigation .icons {
-    top: 17px;
+    top: 20px;
     right: 3.5vw;
   }
   body .navigation .icons .hide {
