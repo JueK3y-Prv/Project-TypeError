@@ -211,27 +211,35 @@ body {
       display: flex;
       align-items: center;
       position: fixed;
-      z-index: 6;
+      
+      z-index: 3;
+      
       // top: 35px;
       top: 28px;
       right: 76px;
       cursor: pointer;
-      a img {
-        transition: .2s;
+      a {
+        img {
+          transition: .2s;
+        }
+        img:hover {
+          transition: .2s;
+          opacity: .55;
+        }
       }
-      a img:hover {
-        transition: .2s;
-        opacity: .55;
-      }
-      #left {
+      .left {
         padding-right: 1vw;
       }
     }
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
   body {
+    .ec-minicart__icon {
+      width: 35px !important;
+      height: auto !important;
+    }
     .navigation {
       input + label {
         top: 30px;
@@ -239,7 +247,6 @@ body {
       }
       input ~ nav {
         .logo {
-          text-align: right;
           a picture img {
             width: 180px;
             margin-top: -55px;
@@ -259,7 +266,11 @@ body {
         }
       }
       .icons {
-        display: none;
+        top: 17px;
+        right: 3.5vw;
+        .hide {
+          display: none !important;
+        }
       }
     }
   }

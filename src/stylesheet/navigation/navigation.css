@@ -134,9 +134,9 @@ body .navigation input ~ nav .logo {
   text-align: center;
 }
 body .navigation input ~ nav .logo a {
+  cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  cursor: pointer;
 }
 body .navigation input ~ nav .logo a picture img {
   margin-top: -50px;
@@ -164,7 +164,7 @@ body .navigation input ~ nav > ul > li, body .navigation input ~ nav > ul .desk 
           transition-delay: 0s;
 }
 body .navigation input ~ nav > ul > li > a, body .navigation input ~ nav > ul .desk > a {
-  cursor: pointer;
+  cursor: not-allowed;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   text-decoration: none;
@@ -222,7 +222,7 @@ body .navigation .icons {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  z-index: 6;
+  z-index: 3;
   top: 28px;
   right: 76px;
   cursor: pointer;
@@ -236,20 +236,21 @@ body .navigation .icons a img:hover {
   transition: 0.2s;
   opacity: 0.55;
 }
-body .navigation .icons #left {
+body .navigation .icons .left {
   padding-right: 1vw;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
+  body .ec-minicart__icon {
+    width: 35px !important;
+    height: auto !important;
+  }
   body .navigation input + label {
     top: 30px;
     left: 10vw;
   }
   body .navigation input ~ nav {
     height: 75px;
-  }
-  body .navigation input ~ nav .logo {
-    text-align: right;
   }
   body .navigation input ~ nav .logo a picture img {
     width: 180px;
@@ -267,10 +268,14 @@ body .navigation .icons #left {
     padding: 10px;
   }
   body .navigation .icons {
-    display: none;
+    top: 17px;
+    right: 3.5vw;
+  }
+  body .navigation .icons .hide {
+    display: none !important;
   }
 }
-@media screen and (max-width: 414px) and (max-height: 640px) {
+@media screen and (max-width: 413px) and (max-height: 640px) {
   body .navigation input ~ nav {
     height: 75px;
   }
