@@ -1,7 +1,6 @@
 User-agent: *
-Disallow: /testlab/
-Disallow: /de/page-not-found.htm
-Disallow: /en/page-not-found.htm
+Disallow: /de/wartungsarbeiten.htm
+Disallow: /en/under-construction.htm
 
 User-agent: WebReaper
 User-agent: WebCopier
