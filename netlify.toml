@@ -14,112 +14,33 @@
 
 
 
-# Font redirection - Isn't needed
-[[redirects]]
-  from = "/src/font/Dreamlight.tff"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Dreamlight.tff"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Dreamlight.tff"
-  to = "/en/page-not-found.htm"
-  status = 404
-  
-
-[[redirects]]
-  from = "/src/font/Poppins-Regular.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Poppins-Regular.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Poppins-Regular.woff2"
-  to = "/en/page-not-found.htm"
-  status = 404
-
-
-[[redirects]]
-  from = "/src/font/BASKVILL.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/src/font/BASKVILL.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/src/font/BASKVILL.woff2"
-  to = "/en/page-not-found.htm"
-  status = 404
-
-
-
 # 404 redirection
 [[redirects]]
   from = "/de/*"
-  to = "/de/page-not-found.htm"
+  to = "/de/wartungsarbeiten"
   status = 404
 
 [[redirects]]
   from = "/en/*"
-  to = "/en/page-not-found.htm"
+  to = "/en/under-construction"
   status = 404  
-
-
-
-# Under construction redirection
-#[[redirects]]
-#  from = "/*"
-#  to = "/de/wartungsarbeiten"
-#  status = 302
-#  force = true
-#  conditions = {Language = ["de"]}
-
-#[[redirects]]
-#  from = "/*"
-#  to = "/de/wartungsarbeiten"
-#  status = 302
-#  force = true
-#  conditions = {Country = ["de"]}
-
-#[[redirects]]
-#  from = "/*"
-#  to = "/en/under-construction"
-#  status = 302
-#  force = true
 
 
 
 # Language redirection
 [[redirects]]
   from = "/*"
-  to = "/de/"
+  to = "/de/wartungsarbeiten"
   status = 301
   conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "/*"
-  to = "/de/"
+  to = "/de/wartungsarbeiten"
   status = 301
   conditions = {Country = ["de"]}
 
 [[redirects]]
   from = "/*"
-  to = "/en/"
+  to = "/en/under-construction"
   status = 301
