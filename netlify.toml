@@ -84,25 +84,25 @@
 
 
 # Under construction redirection
-[[redirects]]
-  from = "/*"
-  to = "/de/wartungsarbeiten"
-  status = 302
-  force = true
-  conditions = {Language = ["de"]}
+#[[redirects]]
+#  from = "/*"
+#  to = "/de/wartungsarbeiten"
+#  status = 302
+#  force = true
+#  conditions = {Language = ["de"]}
 
-[[redirects]]
-  from = "/*"
-  to = "/de/wartungsarbeiten"
-  status = 302
-  force = true
-  conditions = {Country = ["de"]}
+#[[redirects]]
+#  from = "/*"
+#  to = "/de/wartungsarbeiten"
+#  status = 302
+#  force = true
+#  conditions = {Country = ["de"]}
 
-[[redirects]]
-  from = "/*"
-  to = "/en/under-construction"
-  status = 302
-  force = true
+#[[redirects]]
+#  from = "/*"
+#  to = "/en/under-construction"
+#  status = 302
+#  force = true
 
 
 
