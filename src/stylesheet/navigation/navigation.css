@@ -134,9 +134,9 @@ body .navigation input ~ nav .logo {
   text-align: center;
 }
 body .navigation input ~ nav .logo a {
+  cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  cursor: pointer;
 }
 body .navigation input ~ nav .logo a picture img {
   margin-top: -50px;
