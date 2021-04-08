@@ -5,18 +5,13 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-      <loc>https://type-error.netlify.app/en/</loc>
-      <lastmod>2021-03-27</lastmod>
+      <loc>https://type-error.netlify.app/en/under-construction</loc>
+      <lastmod>2021-04-08</lastmod>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>https://type-error.netlify.app/de/</loc>
-      <lastmod>2021-03-27</lastmod>
+      <loc>https://type-error.netlify.app/de/wartungsarbeiten</loc>
+      <lastmod>2021-04-08</lastmod>
       <priority>1.00</priority>
-    </url>
-    <url>
-      <loc>https://type-error.netlify.app/de/shop</loc>
-      <lastmod>2021-03-27</lastmod>
-      <priority>0.80</priority>
     </url>
 </urlset>
