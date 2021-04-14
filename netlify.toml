@@ -85,22 +85,6 @@
 
 # Language redirection
 [[redirects]]
-  from = "/de/shop/"
-  to = "https://type-error.netlify.app/de/shop#!/Deutsch/c/97283035"
-  status = 200
-  force = true
-
-
-[[redirects]]
-  from = "/en/shop/"
-  to = "https://type-error.netlify.app/en/shop#!/English/c/97303057"
-  status = 200
-  force = true
-
-
-
-# Language redirection
-[[redirects]]
   from = "/*"
   to = "/de/"
   status = 301
