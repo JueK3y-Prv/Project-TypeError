@@ -100,3 +100,23 @@
   from = "/*"
   to = "/en/"
   status = 301
+
+
+
+# Language redirection
+[[redirects]]
+  from = "/shop/"
+  to = "/de/shop#!/Deutsch"
+  status = 301
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/shop/"
+  to = "/de/shop#!/Deutsch"
+  status = 301
+  conditions = {Country = ["de"]}
+
+[[redirects]]
+  from = "/en/shop#!/English"
+  to = "/en/"
+  status = 301
