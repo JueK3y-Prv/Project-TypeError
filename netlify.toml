@@ -85,6 +85,19 @@
 
 # Language redirection
 [[redirects]]
+  from = "/de/shop/*"
+  to = "/de/shop#!/Deutsch"
+  status = 301
+
+[[redirects]]
+  from = "/en/shop/*"
+  to = "/en/shop#!/English"
+  status = 301
+
+
+
+# Language redirection
+[[redirects]]
   from = "/*"
   to = "/de/"
   status = 301
@@ -99,17 +112,4 @@
 [[redirects]]
   from = "/*"
   to = "/en/"
-  status = 301
-
-
-
-# Language redirection
-[[redirects]]
-  from = "/de/shop/"
-  to = "/de/shop#!/Deutsch"
-  status = 301
-
-[[redirects]]
-  from = "/en/shop/"
-  to = "/en/shop#!/English"
   status = 301
