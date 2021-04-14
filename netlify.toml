@@ -105,18 +105,11 @@
 
 # Language redirection
 [[redirects]]
-  from = "/shop/"
+  from = "/de/shop/"
   to = "/de/shop#!/Deutsch"
   status = 301
-  conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/shop/"
-  to = "/de/shop#!/Deutsch"
-  status = 301
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/en/shop#!/English"
-  to = "/en/"
+  from = "/en/shop/"
+  to = "/en/shop#!/English"
   status = 301
