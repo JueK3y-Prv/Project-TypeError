@@ -1,18 +1,17 @@
 body {
-  background: var(--banner) !important;
+  .navigation h1:hover {
+      transition: .2s;
+      opacity: .55;
+  }
   .content {
     position: absolute;
-    top: 15vh;
+    top: 0;
+    right: 0;
     bottom: 0;
     left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-
-    line-height: 40px;
-    text-align: center;
-    width: 90%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     ::selection {
       color: #CEDBF0;
       background: #737d8d;
@@ -21,17 +20,11 @@ body {
       color: #CEDBF0;
       background: #737d8d;
     }
-    h2 {
+    p {
+      line-height: 4vh;
       position: relative;
       font-family: 'Content', 'Times New Roman', Times, serif ;
-      font-size: 2.7vh;
-      text-align: center;
-      color: var(--textColor);
-    }
-    p {
-      position: relative;
-      font-family: 'Navigation', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 1.5vh;
+      font-size: 3.3vh;
       text-align: center;
       color: var(--textColor);
       a {
@@ -57,14 +50,8 @@ body {
 
 @media screen and (max-width: 414px) {
   body {
-    .content {
-      line-height: 32px;
-      h2 {
-        font-size: 3vh;
-      }
-      p {
-        font-size: 2vh;
-      }
+    .content p {
+      font-size: 3vh;
     }
   }
 }

@@ -237,7 +237,7 @@ body .navigation .icons a img:hover {
   opacity: 0.55;
 }
 body .navigation .icons .left {
-  padding-right: 1vw;
+  padding-right: 17px;
 }
 
 @media screen and (max-width: 413px) {
