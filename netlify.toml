@@ -27,9 +27,10 @@
 
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/en/page-not-found.htm"
   status = 404  
+  force = true
 
 
 
@@ -38,7 +39,7 @@
   from = "/"
   to = "/de/"
   status = 301
-   force = true
+  force = true
   conditions = {Language = ["de"]}
 
 [[redirects]]
