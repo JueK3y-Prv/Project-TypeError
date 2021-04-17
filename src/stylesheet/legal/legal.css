@@ -1,9 +1,8 @@
 body {
   background: var(--banner) !important;
 }
-body .content {
-  position: absolute;
-  top: 15vh;
+body main {
+  margin-top: 15vh;
   bottom: 0;
   left: 0;
   right: 0;
@@ -13,33 +12,33 @@ body .content {
   text-align: center;
   width: 90%;
 }
-body .content ::-moz-selection {
+body main ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
-body .content ::selection {
+body main ::selection {
   color: #CEDBF0;
   background: #737d8d;
 }
-body .content ::-moz-selection {
+body main ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
-body .content h2 {
+body main h2 {
   position: relative;
   font-family: "Content", "Times New Roman", Times, serif;
   font-size: 2.7vh;
   text-align: center;
   color: var(--textColor);
 }
-body .content p {
+body main p {
   position: relative;
   font-family: "Navigation", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.5vh;
   text-align: center;
   color: var(--textColor);
 }
-body .content p a {
+body main p a {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   text-decoration: underline;
@@ -48,7 +47,7 @@ body .content p a {
   -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
 }
-body .content p a:hover {
+body main p a:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: var(--hoverColor);
@@ -58,31 +57,39 @@ body a {
   color: var(--textColor);
 }
 body footer {
-  display: none;
   left: 0;
-  top: 100vh;
-  bottom: 0;
-  width: 100%;
+  margin: 0;
+  padding: 0;
   height: 60px;
-  text-align: center;
   font-size: 1vh;
   font-family: "Navigation", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--infoGrey);
-  background-color: red;
+  background-color: var(--banner);
   border-top: 1px solid var(--bannerGrey);
 }
+body footer ul {
+  text-align: center;
+}
 body footer ul li {
-  display: inline;
+  margin: 0 50px;
+  vertical-align: top;
+  display: inline-block;
 }
 
-@media screen and (max-width: 414px) {
-  body .content {
-    line-height: 32px;
+@media screen and (max-width: 1024px) {
+  body main {
+    margin-top: 10vh;
   }
-  body .content h2 {
+}
+@media screen and (max-width: 414px) {
+  body main {
+    line-height: 32px;
+    width: 85%;
+  }
+  body main h2 {
     font-size: 3vh;
   }
-  body .content p {
+  body main p {
     font-size: 2vh;
   }
 }
