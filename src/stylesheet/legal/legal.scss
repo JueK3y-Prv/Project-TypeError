@@ -33,6 +33,7 @@ body {
       font-size: 1.5vh;
       text-align: center;
       color: var(--textColor);
+      // Old Style
       a {
         transition: .2s;
         text-decoration: underline;
@@ -45,6 +46,21 @@ body {
         transition: .2s;
         color: var(--hoverColor);
       }
+      // New style
+      /* a {
+        transition: .2s;
+        border-bottom: 2px solid lightskyblue;
+      }
+      a:hover {
+        transition: .2s;
+        color: var(--hoverColor);
+        border-bottom: none;
+        text-decoration: underline;
+        -webkit-text-decoration-color: lightskyblue;
+        text-decoration-color:lightskyblue;
+        -webkit-text-decoration-style: wavy;
+        text-decoration-style: wavy;
+      } */
     }
   }
   a {
