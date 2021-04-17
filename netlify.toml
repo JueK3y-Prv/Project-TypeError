@@ -32,6 +32,7 @@
   from = "/"
   to = "/de/"
   status = 301
+  force = true
 
 
 # Language redirection
