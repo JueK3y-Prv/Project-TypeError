@@ -240,6 +240,37 @@ body .navigation .icons a img:hover {
 body .navigation .icons .left {
   padding-right: 17px;
 }
+body footer {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  font-size: 1vh;
+  font-family: "Navigation", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--infoGrey);
+  background-color: var(--banner);
+  border-top: 1px solid var(--bannerGrey);
+}
+body footer ul {
+  margin-top: 20px;
+  text-align: center;
+}
+body footer ul li {
+  margin: 0 50px;
+  vertical-align: top;
+  display: inline-block;
+}
+body footer ul li a {
+  color: var(--infoGrey);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+body footer ul li a:hover {
+  color: var(--hoverColor);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-bottom: 1px solid var(--hoverColor);
+}
 
 @media screen and (max-width: 413px) {
   body .ec-minicart__icon {

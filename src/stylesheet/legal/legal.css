@@ -56,25 +56,6 @@ body a {
   text-decoration: none;
   color: var(--textColor);
 }
-body footer {
-  left: 0;
-  margin: 0;
-  padding: 0;
-  height: 60px;
-  font-size: 1vh;
-  font-family: "Navigation", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: var(--infoGrey);
-  background-color: var(--banner);
-  border-top: 1px solid var(--bannerGrey);
-}
-body footer ul {
-  text-align: center;
-}
-body footer ul li {
-  margin: 0 50px;
-  vertical-align: top;
-  display: inline-block;
-}
 
 @media screen and (max-width: 1024px) {
   body main {

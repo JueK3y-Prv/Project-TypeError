@@ -233,6 +233,37 @@ body {
       }
     }
   }
+  footer {
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+
+    font-size: 1vh;
+    font-family: 'Navigation', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: var(--infoGrey);
+    background-color: var(--banner);
+    border-top: 1px solid var(--bannerGrey);
+    ul {
+      margin-top: 20px;
+      text-align: center;
+      li {
+        margin: 0 50px;
+        vertical-align: top;
+        display: inline-block;
+        a {
+          color: var(--infoGrey);
+          transition: .2s;
+        }
+        a:hover {
+          color: var(--hoverColor);
+          transition: .2s;
+          border-bottom: 1px solid var(--hoverColor);
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 413px) {
