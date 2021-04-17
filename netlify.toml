@@ -85,19 +85,19 @@
 
 # Language redirection
 [[redirects]]
-  from = "index.htm"
+  from = "/"
   to = "/de/"
   status = 301
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "index.htm"
+  from = "/"
   to = "/de/"
   status = 301
   conditions = {Country = ["de"]}
 
 [[redirects]]
-  from = "index.htm"
+  from = "/"
   to = "/en/"
   status = 301
 
