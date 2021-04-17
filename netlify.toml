@@ -47,10 +47,3 @@
   to = "/en/"
   status = 301
   force = true
-
-
-[[redirects]]
-  from = "/"
-  to = "/en/page-not-found.htm"
-  status = 404  
-  force = true
