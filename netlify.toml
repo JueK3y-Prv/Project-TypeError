@@ -29,21 +29,21 @@
 
 # Language redirection
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/de/"
   status = 301
    force = true
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/de/"
   status = 301
   force = true
   conditions = {Country = ["de"]}
 
  [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/en/"
   status = 301
   force = true
