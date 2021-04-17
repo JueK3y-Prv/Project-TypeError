@@ -52,6 +52,28 @@ body {
     text-decoration: none;
     color: var(--textColor);
   }
+  footer {
+    display: none;
+    //position: absolute;
+    //position: fixed;
+    left: 0;
+    top: 100vh;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+
+    text-align: center;
+    font-size: 1vh;
+    font-family: 'Navigation', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: var(--infoGrey);
+    background-color: red;
+    border-top: 1px solid var(--bannerGrey);
+    ul li {
+      display: inline;
+
+    }
+  }
 }
 
 
