@@ -53,8 +53,8 @@ html#ecwid_html body#ecwid_body [class^=ec-minicart] {
   margin: 0 2px !important;
 }
 
-a {
-  cursor: s;
+html {
+  scroll-behavior: smooth;
 }
 
 body {

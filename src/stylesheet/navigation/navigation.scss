@@ -54,14 +54,14 @@
   --backgroundSb: #6e7b8f;
   --backgroundSbHover: #535a64;
   --colorSb: #292a2c;
-
 }
+
 html#ecwid_html body#ecwid_body [class^='ec-minicart'] {
   margin: 0 2px !important;       
 }
 
-a {
-  cursor: s;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
