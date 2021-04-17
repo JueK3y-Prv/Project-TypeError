@@ -26,6 +26,12 @@
   status = 404  
 
 
+[[redirects]]
+  from = "/*"
+  to = "/en/page-not-found.htm"
+  status = 404  
+
+
 
 # Language redirection
 [[redirects]]
