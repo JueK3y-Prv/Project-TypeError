@@ -14,62 +14,6 @@
 
 
 
-# Font redirection - Isn't needed
-[[redirects]]
-  from = "/src/font/Dreamlight.tff"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Dreamlight.tff"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Dreamlight.tff"
-  to = "/en/page-not-found.htm"
-  status = 404
-  
-
-[[redirects]]
-  from = "/src/font/Poppins-Regular.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Poppins-Regular.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/src/font/Poppins-Regular.woff2"
-  to = "/en/page-not-found.htm"
-  status = 404
-
-
-[[redirects]]
-  from = "/src/font/BASKVILL.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/src/font/BASKVILL.woff2"
-  to = "/de/page-not-found.htm"
-  status = 404
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/src/font/BASKVILL.woff2"
-  to = "/en/page-not-found.htm"
-  status = 404
-
-
-
 # 404 redirection
 [[redirects]]
   from = "/de/*"
@@ -85,58 +29,21 @@
 
 # Language redirection
 [[redirects]]
-  from = "/index.htm"
+  from = "/"
   to = "/de/"
   status = 301
+  force = true
   conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/index.htm"
+  from = "/"
   to = "/de/"
   status = 301
+  force = true
   conditions = {Country = ["de"]}
 
-[[redirects]]
-  from = "/index.htm"
+ [[redirects]]
+  from = "/"
   to = "/en/"
   status = 301
-
-
-
-# Language redirection
-[[redirects]]
-  from = "index.htm"
-  to = "/de/"
-  status = 301
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "index.htm"
-  to = "/de/"
-  status = 301
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "index.htm"
-  to = "/en/"
-  status = 301
-
-
-
-# Language redirection
-[[redirects]]
-  from = "/*"
-  to = "/de/"
-  status = 301
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/de/"
-  status = 301
-  conditions = {Country = ["de"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/en/"
-  status = 301
+  force = true
