@@ -15,9 +15,6 @@
 
 
 # 404 redirection
-
-
-
 [[redirects]]
   from = "/"
   to = "/de/"
@@ -39,12 +36,6 @@
   force = true
 
 
-[[redirects]]
-  from = "/*"
-  to = "/404.htm"
-  status = 404
-
-
 
 [[redirects]]
   from = "/de/*"
@@ -55,6 +46,13 @@
   from = "/en/*"
   to = "/en/page-not-found.htm"
   status = 404  
+
+
+
+[[redirects]]
+  from = "/*"
+  to = "/404.htm"
+  status = 404
 
 
 
