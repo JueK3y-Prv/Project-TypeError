@@ -33,6 +33,25 @@
 
 
 # Language redirection
+
+[[redirects]]
+  from = "/*"
+  to = "/de/"
+  status = 301
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/de/"
+  status = 301
+  conditions = {Country = ["de"]}
+
+ [[redirects]]
+  from = "/*"
+  to = "/en/"
+  status = 301
+
+
 [[redirects]]
   from = "/"
   to = "/de/"
