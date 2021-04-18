@@ -20,19 +20,7 @@
   to = "/404.htm"
   status = 404
 
-[[redirects]]
-  from = "/de/*"
-  to = "/de/page-not-found.htm"
-  status = 404
 
-[[redirects]]
-  from = "/en/*"
-  to = "/en/page-not-found.htm"
-  status = 404  
-
-
-
-# Language redirection
 
 [[redirects]]
   from = "/*"
@@ -53,8 +41,22 @@
   to = "/en/"
   status = 301
   force = true
-
   
+
+
+[[redirects]]
+  from = "/de/*"
+  to = "/de/page-not-found.htm"
+  status = 404
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/page-not-found.htm"
+  status = 404  
+
+
+
+# Language redirection  
 [[redirects]]
   from = "/"
   to = "/de/"
