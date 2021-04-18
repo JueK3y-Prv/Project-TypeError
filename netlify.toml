@@ -14,7 +14,7 @@
 
 
 
-# 404 redirection
+# Language redirect
 [[redirects]]
   from = "/"
   to = "/de/"
@@ -37,6 +37,7 @@
 
 
 
+# 404 redirection
 [[redirects]]
   from = "/de/*"
   to = "/de/page-not-found.htm"
@@ -47,32 +48,7 @@
   to = "/en/page-not-found.htm"
   status = 404  
 
-
-
 [[redirects]]
   from = "/*"
   to = "/404.htm"
   status = 404
-
-
-
-# Language redirection  
-[[redirects]]
-  from = "/"
-  to = "/de/"
-  status = 301
-  force = true
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/"
-  to = "/de/"
-  status = 301
-  force = true
-  conditions = {Country = ["de"]}
-
- [[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 301
-  force = true
