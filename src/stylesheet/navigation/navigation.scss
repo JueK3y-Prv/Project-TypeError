@@ -171,6 +171,7 @@ body {
           }
           a#active {
             color: var(--active);
+
           }
           a:hover {
             transition: .2s;
@@ -192,30 +193,11 @@ body {
         }
       }
     }
-    h1 {
-      transition: .2s;
-      position: fixed;
-      top: 13px;
-      left: 48.1vw;    /* right: 80px */
-      z-index: 6;
-      font-size: 20px;
-      font-weight: 900;
-      font-family: 'Logo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      > span {
-        text-transform: none;
-        opacity: .55;
-        font-weight: 300;
-        font-size: 12px;
-      }
-    }
     .icons {
       display: flex;
       align-items: center;
       position: fixed;
-      
       z-index: 3;
-      
-      // top: 35px;
       top: 28px;
       right: 76px;
       cursor: pointer;
@@ -232,6 +214,9 @@ body {
         padding-right: 17px;
       }
     }
+  }
+  .hidden {
+    display: none;
   }
   footer {
     left: 0;

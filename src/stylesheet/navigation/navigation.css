@@ -197,24 +197,6 @@ body .navigation input:checked ~ nav > ul > li {
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
 }
-body .navigation h1 {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  position: fixed;
-  top: 13px;
-  left: 48.1vw;
-  /* right: 80px */
-  z-index: 6;
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Logo", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-body .navigation h1 > span {
-  text-transform: none;
-  opacity: 0.55;
-  font-weight: 300;
-  font-size: 12px;
-}
 body .navigation .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,6 +221,9 @@ body .navigation .icons a img:hover {
 }
 body .navigation .icons .left {
   padding-right: 17px;
+}
+body .hidden {
+  display: none;
 }
 body footer {
   left: 0;
