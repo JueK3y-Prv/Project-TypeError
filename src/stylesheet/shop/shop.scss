@@ -5,20 +5,25 @@ body {
   .ec-store__product-page {
     margin-top: 420px !important;
   }
+  .ec-page-title {
+    display: none;
+  }
   background: var(--banner) !important;
   .navigation h1:hover {
       transition: .2s;
       opacity: .55;
   }
-  .content {
-    position: absolute;
-    top: 0;
-    right: 0;
+  main {
+    margin-top: 15vh;
     bottom: 0;
     left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 40px;
+    text-align: center;
+    width: 90%;
     ::selection {
       color: #CEDBF0;
       background: #737d8d;

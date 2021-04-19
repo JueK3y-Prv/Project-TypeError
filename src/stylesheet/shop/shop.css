@@ -7,43 +7,41 @@ body .ec-store__category-page {
 body .ec-store__product-page {
   margin-top: 420px !important;
 }
+body .ec-page-title {
+  display: none;
+}
 body .navigation h1:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   opacity: 0.55;
 }
-body .content {
-  position: absolute;
-  top: 0;
-  right: 0;
+body main {
+  margin-top: 15vh;
   bottom: 0;
   left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+  text-align: center;
+  width: 90%;
 }
-body .content ::-moz-selection {
+body main ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
-body .content ::selection {
+body main ::selection {
   color: #CEDBF0;
   background: #737d8d;
 }
-body .content ::-moz-selection {
+body main ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
-body .content p {
+body main p {
   color: var(--textColor);
 }
-body .content p a {
+body main p a {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   text-decoration: underline;
@@ -52,7 +50,7 @@ body .content p a {
   -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
 }
-body .content p a:hover {
+body main p a:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: var(--hoverColor);

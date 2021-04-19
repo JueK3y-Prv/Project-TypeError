@@ -230,8 +230,13 @@ body {
     color: var(--infoGrey);
     background-color: var(--banner);
     border-top: 1px solid var(--bannerGrey);
+
     ul {
+      display: flex;
+
       margin-top: 20px;
+
+      justify-content: center;
       text-align: center;
       li {
         margin: 0 20px;

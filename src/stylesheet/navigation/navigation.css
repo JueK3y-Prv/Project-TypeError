@@ -237,7 +237,13 @@ body footer {
   border-top: 1px solid var(--bannerGrey);
 }
 body footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 body footer ul li {
