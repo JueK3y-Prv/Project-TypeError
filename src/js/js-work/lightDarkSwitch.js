@@ -2,8 +2,8 @@
 
 const lightButton = document.getElementById("light");
 const darkButton = document.getElementById("dark");
-const respLightButton = document.getElementById("resp-light");
-const respDarkButton = document.getElementById("resp-dark");
+const mobileLightButton = document.getElementById("mobile-light");
+const mobileDarkButton = document.getElementById("mobile-dark");
 const favApp = document.getElementById("fav-app");
 const favPNG = document.getElementById("fav-png");
 const favICO = document.getElementById("fav-ico");
@@ -1238,7 +1238,7 @@ else {
 }
 
 // Button Event Handlers
-// Desktop
+// desktoptop
 lightButton.onclick = () => {
     localStorage.setItem("theme", "light");
     body.classList.replace("dark", "light");
@@ -1251,14 +1251,14 @@ darkButton.onclick = () => {
     darkIcon();
 };
 
-// Responsive
-respLightButton.onclick = () => {
+// mobileonsive
+mobileLightButton.onclick = () => {
     localStorage.setItem("theme", "dark");
     body.classList.replace("light", "dark");
     darkIcon();
 };
 
-respDarkButton.onclick = () => {
+mobileDarkButton.onclick = () => {
     localStorage.setItem("theme", "light");
     body.classList.replace("dark", "light");
     lightIcon();

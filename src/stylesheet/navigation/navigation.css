@@ -24,10 +24,10 @@
   --backgroundSbHover: #737d8d;
   --colorSb: #e7e5e5;
 }
-.light #resp-dark, .light #light, .light #light-globe {
+.light #mobile-dark, .light #light, .light #light-globe {
   display: none;
 }
-.light #resp-light, .light #dark, .light #dark-globe {
+.light #mobile-light, .light #dark, .light #dark-globe {
   display: contents;
 }
 
@@ -42,10 +42,10 @@
   --backgroundSbHover: #535a64;
   --colorSb: #292a2c;
 }
-.dark #resp-dark, .dark #light, .dark #light-globe {
+.dark #mobile-dark, .dark #light, .dark #light-globe {
   display: contents;
 }
-.dark #resp-light, .dark #dark, .dark #dark-globe {
+.dark #mobile-light, .dark #dark, .dark #dark-globe {
   display: none;
 }
 
@@ -157,14 +157,14 @@ body .navigation input ~ nav > ul {
   left: 18.25vw;
   right: 20%;
 }
-body .navigation input ~ nav > ul > li, body .navigation input ~ nav > ul .desk {
+body .navigation input ~ nav > ul > li, body .navigation input ~ nav > ul .desktop {
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-body .navigation input ~ nav > ul > li > a, body .navigation input ~ nav > ul .desk > a {
+body .navigation input ~ nav > ul > li > a, body .navigation input ~ nav > ul .desktop > a {
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -176,15 +176,15 @@ body .navigation input ~ nav > ul > li > a, body .navigation input ~ nav > ul .d
   display: block;
   padding: 30px;
 }
-body .navigation input ~ nav > ul > li a#active, body .navigation input ~ nav > ul .desk a#active {
+body .navigation input ~ nav > ul > li a#active, body .navigation input ~ nav > ul .desktop a#active {
   color: var(--active);
 }
-body .navigation input ~ nav > ul > li a:hover, body .navigation input ~ nav > ul .desk a:hover {
+body .navigation input ~ nav > ul > li a:hover, body .navigation input ~ nav > ul .desktop a:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: var(--hoverColor);
 }
-body .navigation input ~ nav > ul .resp {
+body .navigation input ~ nav > ul .mobile {
   display: none;
 }
 body .navigation input:checked ~ nav {
@@ -263,7 +263,7 @@ body footer ul li a:hover {
   border-bottom: 1px solid var(--hoverColor);
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 414px) {
   body .ec-minicart__icon {
     width: 25px !important;
     height: auto !important;
@@ -283,10 +283,10 @@ body footer ul li a:hover {
     top: 22vh;
     right: 28%;
   }
-  body .navigation input ~ nav > ul .desk {
+  body .navigation input ~ nav > ul .desktop {
     display: none;
   }
-  body .navigation input ~ nav > ul .resp {
+  body .navigation input ~ nav > ul .mobile {
     display: block;
     padding: 10px;
   }
@@ -298,7 +298,7 @@ body footer ul li a:hover {
     display: none !important;
   }
 }
-@media screen and (max-width: 413px) and (max-height: 640px) {
+@media screen and (max-width: 414px) and (max-height: 640px) {
   body .navigation input ~ nav {
     height: 75px;
   }
@@ -308,7 +308,7 @@ body footer ul li a:hover {
   body .navigation input ~ nav > ul li a {
     padding: 20px;
   }
-  body .navigation input ~ nav > ul .resp {
+  body .navigation input ~ nav > ul .mobile {
     padding: 7px;
   }
 }

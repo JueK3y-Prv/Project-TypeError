@@ -23,10 +23,10 @@
   --hoverColor: var(--active);
   --infoGrey: #A4A4A4;
   // --hoverColor: #0203048a;
-  #resp-dark, #light, #light-globe {
+  #mobile-dark, #light, #light-globe {
     display: none;
   }
-  #resp-light, #dark, #dark-globe {
+  #mobile-light, #dark, #dark-globe {
     display: contents;
   }
   //Scrollbar color
@@ -44,10 +44,10 @@
   --active: #9aa3a3;
   --hoverColor: var(--active);
   //--hoverColor: #BBC6C6;
-  #resp-dark, #light, #light-globe {
+  #mobile-dark, #light, #light-globe {
     display: contents;
   }
-  #resp-light, #dark, #dark-globe {
+  #mobile-light, #dark, #dark-globe {
     display: none;
   }
   //Scrollbar color
@@ -154,7 +154,7 @@ body {
         top: 35vh;
         left: 18.25vw;
         right: 20%;
-        > li, .desk {
+        > li, .desktop {
           opacity: 0;
           transition: .5s;
           transition-delay: 0s;
@@ -178,7 +178,7 @@ body {
             color: var(--hoverColor);
           }
         }
-        .resp {
+        .mobile {
           display: none;
         }
       }
@@ -256,7 +256,7 @@ body {
   }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 414px) {
   body {
     .ec-minicart__icon {
       width: 25px !important;
@@ -278,10 +278,10 @@ body {
         > ul {
           top: 22vh;
           right: 28%;
-          .desk {
+          .desktop {
             display: none;
           }
-          .resp {
+          .mobile {
             display: block;
             padding: 10px;
           }
@@ -305,7 +305,7 @@ body {
           li a {
             padding: 20px;
           }
-          .resp {
+          .mobile {
             padding: 7px;
           }
         }
