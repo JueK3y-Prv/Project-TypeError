@@ -40,9 +40,10 @@
   --background: linear-gradient(to right, #2c2e31 0%, #2c2e33 100%);
   --textColor: #FAFAFA;
   --banner: #1B1C1E;
-  --bannerGrey: #2b2c31;
+  --bannerGrey: #43444b;
   --active: #9aa3a3;
   --hoverColor: var(--active);
+  --infoGrey: #bebebe;
   //--hoverColor: #BBC6C6;
   #mobile-dark, #light, #light-globe {
     display: contents;
@@ -231,17 +232,21 @@ body {
     background-color: var(--banner);
     border-top: 1px solid var(--bannerGrey);
 
-    #footer-left {
+    #footer-left, #footer-right {
       display: flex;
-
       margin-top: 20px;
-
-      justify-content: center;
       text-align: center;
       li {
-        margin: 0 20px;
         vertical-align: top;
         display: inline-block;
+      }
+    }
+
+    #footer-left {
+      float: left;
+      padding-left: 450px;
+      li {
+        margin: 0 20px;
         a {
           color: var(--infoGrey);
           transition: .2s;
@@ -254,25 +259,18 @@ body {
       }
     }
     #footer-right {
-      display: flex;
-
-      margin-top: 20px;
-
-      justify-content: center;
-      text-align: center;
-      padding-bottom: 10px;
+      float: right;
+      padding-right: 450px;
       li {
-        margin: 0 20px;
-        vertical-align: top;
-        display: inline-block;
+        margin: 0 10px;
         a {
           img {
-            opacity: .7;
+            opacity: 1;
             transition: .2s;
-            width: 24px;
+            width: 14px;
             height: auto;
             &:hover {
-              opacity: .45;
+              opacity: .65;
               transition: .2s;
             }
           }
