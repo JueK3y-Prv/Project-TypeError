@@ -232,7 +232,7 @@ body {
     background-color: var(--banner);
     border-top: 1px solid var(--bannerGrey);
 
-    #footer-left, #footer-right {
+    #footer-copyright, #footer-left, #footer-right {
       display: flex;
       margin-top: 20px;
       text-align: center;
@@ -242,9 +242,22 @@ body {
       }
     }
 
+    #footer-copyright {
+      display: none;
+      li a {
+        color: var(--infoGrey);
+        transition: .2s;
+        &:hover {
+          color: var(--hoverColor);
+          transition: .2s;
+          border-bottom: 1px solid var(--hoverColor);
+        }
+      }
+    }
+
     #footer-left {
       float: left;
-      padding-left: 450px;
+      padding-left: 22vw;
       li {
         margin: 0 20px;
         a {
@@ -260,7 +273,7 @@ body {
     }
     #footer-right {
       float: right;
-      padding-right: 450px;
+      padding-right: 22vw;
       li {
         margin: 0 10px;
         a {
@@ -280,8 +293,64 @@ body {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1620px) {
+  body footer {
+    #footer-left {
+      padding-left: 15vw;
+    }
+    #footer-right {
+      padding-right: 15vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  body footer {
+    #footer-left {
+      padding-left: 10vw;
+    }
+    #footer-right {
+      padding-right: 10vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  body footer {
+    #footer-left {
+      padding-left: 5vw;
+    }
+    #footer-right {
+      padding-right: 5vw;
+    }
+  }
+}
+
+// iPad Pro sized
+@media screen and (max-width: 1024px) {
+  body footer {
+    font-size: 0.8vh;
+    #footer-left {
+      padding-left: 5vw;
+      li {
+        margin: 0 10px;
+      }      
+    }
+    #footer-right {
+      padding-right: 5vw;
+      li a img {
+        width: 12px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
   body {
+    .desktop {
+      display: none !important;
+    }
     .ec-minicart__icon {
       width: 25px !important;
       height: auto !important;
@@ -302,9 +371,6 @@ body {
         > ul {
           top: 22vh;
           right: 28%;
-          .desktop {
-            display: none;
-          }
           .mobile {
             display: block;
             padding: 10px;
@@ -316,6 +382,28 @@ body {
         right: 3.5vw;
         .hide {
           display: none !important;
+        }
+      }
+    }
+    footer {
+      font-size: 1.2vh;
+      #footer-copyright, #footer-left, #footer-right {
+        display: flex;
+        float: unset;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        text-align: center;
+      }
+      #footer-left {
+        #footer-left-copyright {
+          display: none;
+        }
+      }
+      #footer-right {
+        padding-bottom: 20px;
+        li a img {
+          width: 2vh;
         }
       }
     }
