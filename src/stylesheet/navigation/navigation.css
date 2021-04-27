@@ -236,7 +236,7 @@ body footer {
   background-color: var(--banner);
   border-top: 1px solid var(--bannerGrey);
 }
-body footer ul {
+body footer #footer-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,21 +246,49 @@ body footer ul {
           justify-content: center;
   text-align: center;
 }
-body footer ul li {
+body footer #footer-left li {
   margin: 0 20px;
   vertical-align: top;
   display: inline-block;
 }
-body footer ul li a {
+body footer #footer-left li a {
   color: var(--infoGrey);
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-body footer ul li a:hover {
+body footer #footer-left li a:hover {
   color: var(--hoverColor);
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-bottom: 1px solid var(--hoverColor);
+}
+body footer #footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+body footer #footer-right li {
+  margin: 0 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+body footer #footer-right li a img {
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 24px;
+  height: auto;
+}
+body footer #footer-right li a img:hover {
+  opacity: 0.45;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 414px) {

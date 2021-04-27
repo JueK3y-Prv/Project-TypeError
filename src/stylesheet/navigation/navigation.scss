@@ -231,7 +231,7 @@ body {
     background-color: var(--banner);
     border-top: 1px solid var(--bannerGrey);
 
-    ul {
+    #footer-left {
       display: flex;
 
       margin-top: 20px;
@@ -250,6 +250,32 @@ body {
           color: var(--hoverColor);
           transition: .2s;
           border-bottom: 1px solid var(--hoverColor);
+        }
+      }
+    }
+    #footer-right {
+      display: flex;
+
+      margin-top: 20px;
+
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 10px;
+      li {
+        margin: 0 20px;
+        vertical-align: top;
+        display: inline-block;
+        a {
+          img {
+            opacity: .7;
+            transition: .2s;
+            width: 24px;
+            height: auto;
+            &:hover {
+              opacity: .45;
+              transition: .2s;
+            }
+          }
         }
       }
     }
