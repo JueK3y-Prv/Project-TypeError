@@ -29,3 +29,17 @@ document.onkeydown = function(e) {
 setTimeout(function() {
     console.log('-------------------------------------------\n👋 Hey there! You found a secret cookie 🍪\n-------------------------------------------');
 }, 3000);
+
+
+try {
+    var thisYear  = new Date().getFullYear(),
+    startYear = '2021';
+
+    if (thisYear > startYear) { 
+        document.getElementById("currentYear").innerHTML = startYear + ' - ' + thisYear
+        document.getElementById("currentYearMobile").innerHTML = startYear + ' - ' + thisYear
+    }
+} catch (error) {
+    pass
+}
+

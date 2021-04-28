@@ -9,9 +9,21 @@ html#ecwid_html body#ecwid_body {
     .pswp__caption {
       background-color: var(--banner) !important;
     }
+    .pswp__caption__center {
+      color: var(--textColor) !important;
+    }
   }
   .ec-size .ec-store .grid-product__title-inner, .grid-product__price-amount {
     color: var(--textColor) !important;
+  }
+  .ec-size .ec-store .form-control--secondary .form-control__button {
+    border-color: var(--infoGrey) !important;
+    background-color: var(--banner) !important;
+    color: var(--textColor) !important;
+    &:hover {
+      background-color: var(--bannerGrey) !important;
+      color: var(--textColor) !important;
+    }
   }
 }
 
@@ -44,6 +56,7 @@ body {
     .ec-cart {
       margin-top: 40vh !important;
       margin-bottom: 35vh !important;
+      color: var(--textColor);
     }
     .product-details__sidebar, .ec-price-item, .form-control__inline-label {
       color: var(--textColor);
