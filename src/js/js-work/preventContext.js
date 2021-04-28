@@ -31,15 +31,20 @@ setTimeout(function() {
 }, 3000);
 
 
-try {
-    var thisYear  = new Date().getFullYear(),
-    startYear = '2021';
+var thisYear  = new Date().getFullYear()
+startYear = '2021'
 
-    if (thisYear > startYear) { 
+if (thisYear > startYear) { 
+    try {
+        document.getElementById("currentYearText").innerHTML = startYear + ' - ' + thisYear
+    } catch (error) {
+        pass
+    }
+    try {
         document.getElementById("currentYear").innerHTML = startYear + ' - ' + thisYear
         document.getElementById("currentYearMobile").innerHTML = startYear + ' - ' + thisYear
+    } catch (error) {
+        pass   
     }
-} catch (error) {
-    pass
 }
 
