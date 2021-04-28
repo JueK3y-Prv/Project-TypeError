@@ -1,4 +1,7 @@
-html#ecwid_html body#ecwid_body .ecwid-pswp .pswp__item {
+html#ecwid_html body#ecwid_body .ecwid-pswp .pswp__ui--idle .pswp__button--close {
+  background-color: cornflowerblue !important;
+}
+html#ecwid_html body#ecwid_body .ecwid-pswp .pswp__item, html#ecwid_html body#ecwid_body .ecwid-pswp .pswp--has_mouse .pswp__button--arrow--right {
   background-color: var(--banner) !important;
 }
 html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__title-inner, html#ecwid_html body#ecwid_body .grid-product__price-amount {

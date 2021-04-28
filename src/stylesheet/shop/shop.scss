@@ -1,6 +1,11 @@
 html#ecwid_html body#ecwid_body {
-  .ecwid-pswp .pswp__item {
-    background-color: var(--banner) !important;
+  .ecwid-pswp {
+    .pswp__ui--idle .pswp__button--close {
+      background-color: cornflowerblue !important;
+    }
+    .pswp__item, .pswp--has_mouse .pswp__button--arrow--right {
+      background-color: var(--banner) !important;
+    }
   }
   .ec-size .ec-store .grid-product__title-inner, .grid-product__price-amount {
     color: var(--textColor) !important;
