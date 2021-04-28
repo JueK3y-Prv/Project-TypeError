@@ -1,20 +1,20 @@
+html#ecwid_html body#ecwid_body {
+  .ecwid-pswp .pswp__item {
+    background-color: var(--banner) !important;
+  }
+  .ec-size .ec-store .grid-product__title-inner, .grid-product__price-amount {
+    color: var(--textColor) !important;
+  }
+}
+
 body {
-  .ec-store__category-page {
-    margin-top: 150px !important;
-  }
-  .ec-store__product-page {
-    margin-top: 420px !important;
-  }
-  .ec-page-title {
-    display: none;
-  }
   background: var(--banner) !important;
   .navigation h1:hover {
       transition: .2s;
       opacity: .55;
   }
   main {
-    margin-top: 15vh;
+    margin-top: 1vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -24,6 +24,25 @@ body {
     line-height: 40px;
     text-align: center;
     width: 90%;
+    .ec-store__category-page {
+      margin-top: 150px !important;
+    }
+    .ec-store__product-page {
+      margin-top: 14vh !important;
+    }
+    .ec-page-title {
+      display: none;
+    }
+    .ec-cart {
+      margin-top: 40vh !important;
+      margin-bottom: 35vh !important;
+    }
+    .product-details__sidebar, .ec-price-item, .form-control__inline-label {
+      color: var(--textColor);
+    }
+    .product-details__product-price-shipping {
+      color: var(--infoGrey);
+    }
     ::selection {
       color: #CEDBF0;
       background: #737d8d;
@@ -54,59 +73,27 @@ body {
   }
 }
 
-@media screen and (max-width: 1380px) {
-  body .ec-store__category-page {
-    margin-top: 60px !important;
-  }
-}
 
-@media screen and (max-width: 1370px) {
-  body .ec-store__category-page {
-    margin-top: 610px !important;
-  }
-}
-
-@media screen and (max-width: 1024px) {   // iPad Pro sized
+@media screen and (max-width: 950px) {
   body {
-    .ec-store__category-page {
-      margin-top: 20vh !important;
-    }
-    .ec-store__product-page {
-      margin-top: 0vh !important;
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {    // iPad sized
-  body {
-    .ec-store__category-page {
-      margin-top: 30vh !important;
-    }
-    .ec-store__product-page {
-      margin-top: 15vh !important;
+    main {
+      margin-top: -1vh;
     }
   }
 }
 
 @media screen and (max-width: 414px) {
   body {
-    .ec-store__category-page {
-      margin-top: 135vh !important;
-    }
-    .ec-store__product-page {
-      margin-top: 96vh !important;
+    main {
+      margin-top: -4.5vh;
     }
   }
 }
 
 @media screen and (max-width: 375px) {
-  body {
-    .ec-store__category-page {
-      margin-top: 1000px !important;
-    }
+  body main {
     .ec-store__product-page {
-      margin-top: 162vh !important;
-      // margin-top: 147vh !important; // low sized
+      margin-top: 17.5vh !important;
     }
   }
 }

@@ -1,14 +1,12 @@
+html#ecwid_html body#ecwid_body .ecwid-pswp .pswp__item {
+  background-color: var(--banner) !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__title-inner, html#ecwid_html body#ecwid_body .grid-product__price-amount {
+  color: var(--textColor) !important;
+}
+
 body {
   background: var(--banner) !important;
-}
-body .ec-store__category-page {
-  margin-top: 150px !important;
-}
-body .ec-store__product-page {
-  margin-top: 420px !important;
-}
-body .ec-page-title {
-  display: none;
 }
 body .navigation h1:hover {
   -webkit-transition: 0.2s;
@@ -16,7 +14,7 @@ body .navigation h1:hover {
   opacity: 0.55;
 }
 body main {
-  margin-top: 15vh;
+  margin-top: 1vh;
   bottom: 0;
   left: 0;
   right: 0;
@@ -25,6 +23,25 @@ body main {
   line-height: 40px;
   text-align: center;
   width: 90%;
+}
+body main .ec-store__category-page {
+  margin-top: 150px !important;
+}
+body main .ec-store__product-page {
+  margin-top: 14vh !important;
+}
+body main .ec-page-title {
+  display: none;
+}
+body main .ec-cart {
+  margin-top: 40vh !important;
+  margin-bottom: 35vh !important;
+}
+body main .product-details__sidebar, body main .ec-price-item, body main .form-control__inline-label {
+  color: var(--textColor);
+}
+body main .product-details__product-price-shipping {
+  color: var(--infoGrey);
 }
 body main ::-moz-selection {
   color: #CEDBF0;
@@ -60,46 +77,19 @@ body a {
   color: var(--textColor);
 }
 
-@media screen and (max-width: 1380px) {
-  body .ec-store__category-page {
-    margin-top: 60px !important;
-  }
-}
-@media screen and (max-width: 1370px) {
-  body .ec-store__category-page {
-    margin-top: 610px !important;
-  }
-}
-@media screen and (max-width: 1024px) {
-  body .ec-store__category-page {
-    margin-top: 20vh !important;
-  }
-  body .ec-store__product-page {
-    margin-top: 0vh !important;
-  }
-}
-@media screen and (max-width: 768px) {
-  body .ec-store__category-page {
-    margin-top: 30vh !important;
-  }
-  body .ec-store__product-page {
-    margin-top: 15vh !important;
+@media screen and (max-width: 950px) {
+  body main {
+    margin-top: -1vh;
   }
 }
 @media screen and (max-width: 414px) {
-  body .ec-store__category-page {
-    margin-top: 135vh !important;
-  }
-  body .ec-store__product-page {
-    margin-top: 96vh !important;
+  body main {
+    margin-top: -4.5vh;
   }
 }
 @media screen and (max-width: 375px) {
-  body .ec-store__category-page {
-    margin-top: 1000px !important;
-  }
-  body .ec-store__product-page {
-    margin-top: 162vh !important;
+  body main .ec-store__product-page {
+    margin-top: 17.5vh !important;
   }
 }
 /*# sourceMappingURL=shop.css.map */
