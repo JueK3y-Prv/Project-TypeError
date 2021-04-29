@@ -75,15 +75,17 @@ html#ecwid_html body#ecwid_body {
     background: var(--banner) !important;
   }
   
-  .ec-size .ec-store .form-control--secondary .form-control__button {
-    border-color: var(--infoGrey) !important;
-    background-color: var(--banner) !important;
-    color: var(--textColor) !important;
-    &:hover {
-      background-color: var(--bannerGrey) !important;
+  .ec-size .ec-store {
+    .form-control--secondary .form-control__button {
+      border-color: var(--infoGrey) !important;
+      background-color: var(--banner) !important;
       color: var(--textColor) !important;
+      &:hover {
+        background-color: var(--bannerGrey) !important;
+        color: var(--textColor) !important;
+      }
     }
-  }
+  }  
 }
 
 html {
