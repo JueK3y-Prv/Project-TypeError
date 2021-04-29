@@ -99,6 +99,9 @@ html#ecwid_html body#ecwid_body {
   }
 
   .ec-size:not(.ec-size--s) .ec-store {
+    .product-details-module__content .form-control--radio {
+      border-top: none;
+    }
     .ec-cart__steps {                                                 // Strich Farbe
       border-top: 1px solid var(--bannerGrey) !important;
     }
