@@ -95,6 +95,9 @@ body a {
   text-decoration: none;
   color: var(--textColor);
 }
+body footer {
+  display: block !important;
+}
 
 @media screen and (max-width: 950px) {
   body main {
