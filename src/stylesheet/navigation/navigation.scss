@@ -74,8 +74,19 @@ html#ecwid_html body#ecwid_body {
     border: 1px solid var(--bannerGrey) !important;
     background: var(--banner) !important;
   }
-  
   .ec-size .ec-store {
+    .ec-text-muted {                                                  // Grauer Text
+      color: var(--infoGrey) !important;
+    }
+    .ec-cart-step--current {                                          // Strich Farbe
+      border-top: 1px solid var(--bannerGrey) !important;
+    }
+    .ec-cart__products, .ec-cart-next__header, .ec-cart-step__next {  // Strich Farbe
+      border-bottom: 1px solid var(--bannerGrey) !important;
+    }
+    .form-control:not(.form-control--loading) .form-control__button { // Weiter Button
+      border: 1px solid var(--bannerGrey) !important;
+    }
     .form-control--secondary .form-control__button {
       border-color: var(--infoGrey) !important;
       background-color: var(--banner) !important;
@@ -85,7 +96,17 @@ html#ecwid_html body#ecwid_body {
         color: var(--textColor) !important;
       }
     }
-  }  
+  }
+
+  .ec-size:not(.ec-size--s) .ec-store {
+    .ec-cart__steps {                                                 // Strich Farbe
+      border-top: 1px solid var(--bannerGrey) !important;
+    }
+    .form-control__text {
+      color: var(--textColor);
+      background-color: var(--banner);
+    }
+  }
 }
 
 html {

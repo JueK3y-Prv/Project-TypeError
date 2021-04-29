@@ -63,6 +63,18 @@ html#ecwid_html body#ecwid_body div.ecwid-ProductBrowserPopup > div {
   border: 1px solid var(--bannerGrey) !important;
   background: var(--banner) !important;
 }
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-text-muted {
+  color: var(--infoGrey) !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart-step--current {
+  border-top: 1px solid var(--bannerGrey) !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart__products, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart-next__header, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart-step__next {
+  border-bottom: 1px solid var(--bannerGrey) !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control:not(.form-control--loading) .form-control__button {
+  border: 1px solid var(--bannerGrey) !important;
+}
 html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
   border-color: var(--infoGrey) !important;
   background-color: var(--banner) !important;
@@ -71,6 +83,13 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .for
 html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button:hover {
   background-color: var(--bannerGrey) !important;
   color: var(--textColor) !important;
+}
+html#ecwid_html body#ecwid_body .ec-size:not(.ec-size--s) .ec-store .ec-cart__steps {
+  border-top: 1px solid var(--bannerGrey) !important;
+}
+html#ecwid_html body#ecwid_body .ec-size:not(.ec-size--s) .ec-store .form-control__text {
+  color: var(--textColor);
+  background-color: var(--banner);
 }
 
 html {
