@@ -16,15 +16,6 @@ html#ecwid_html body#ecwid_body {
   .ec-size .ec-store .grid-product__title-inner, .grid-product__price-amount {
     color: var(--textColor) !important;
   }
-  .ec-size .ec-store .form-control--secondary .form-control__button {
-    border-color: var(--infoGrey) !important;
-    background-color: var(--banner) !important;
-    color: var(--textColor) !important;
-    &:hover {
-      background-color: var(--bannerGrey) !important;
-      color: var(--textColor) !important;
-    }
-  }
 }
 
 body {

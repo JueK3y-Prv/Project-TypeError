@@ -13,15 +13,6 @@ html#ecwid_html body#ecwid_body .ecwid-pswp .pswp__caption__center {
 html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__title-inner, html#ecwid_html body#ecwid_body .grid-product__price-amount {
   color: var(--textColor) !important;
 }
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
-  border-color: var(--infoGrey) !important;
-  background-color: var(--banner) !important;
-  color: var(--textColor) !important;
-}
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button:hover {
-  background-color: var(--bannerGrey) !important;
-  color: var(--textColor) !important;
-}
 
 body {
   background: var(--banner) !important;

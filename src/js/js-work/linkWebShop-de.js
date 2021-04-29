@@ -1,3 +1,3 @@
 if(document.getElementsByClassName("form-control__button").clicked == true) {
-    window.location.href="/en/shop"
+    window.location.replace("https://google.com")
 }

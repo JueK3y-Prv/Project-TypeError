@@ -57,8 +57,33 @@
   --colorSb: #292a2c;
 }
 
-html#ecwid_html body#ecwid_body [class^='ec-minicart'] {
-  margin: 0 2px !important;       
+html#ecwid_html body#ecwid_body {
+  [class^='ec-minicart'] {
+    margin: 0 2px !important;       
+  }
+  
+  .ecwid {
+    color: var(--textColor) !important;
+  }
+  
+  button.ecwid-popup-closeButton {
+    background-color: cornflowerblue !important;
+  }
+
+  div.ecwid-ProductBrowserPopup>div {
+    border: 1px solid var(--bannerGrey) !important;
+    background: var(--banner) !important;
+  }
+  
+  .ec-size .ec-store .form-control--secondary .form-control__button {
+    border-color: var(--infoGrey) !important;
+    background-color: var(--banner) !important;
+    color: var(--textColor) !important;
+    &:hover {
+      background-color: var(--bannerGrey) !important;
+      color: var(--textColor) !important;
+    }
+  }
 }
 
 html {
