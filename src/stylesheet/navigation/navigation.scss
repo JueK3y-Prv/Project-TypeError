@@ -396,6 +396,31 @@ body {
   }
 }
 
+@media screen and (max-width: 690px) {
+  body footer {
+    font-size: 1.2vh;
+    #footer-copyright, #footer-left, #footer-right {
+      display: flex;
+      float: unset;
+      padding-left: 0;
+      padding-right: 0;
+      justify-content: center;
+      text-align: center;
+    }
+    #footer-left {
+      #footer-left-copyright {
+        display: none;
+      }
+    }
+    #footer-right {
+      padding-bottom: 20px;
+      li a img {
+        width: 2vh;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 540px) {
   body {
     .desktop {
@@ -432,28 +457,6 @@ body {
         right: 3.5vw;
         .hide {
           display: none !important;
-        }
-      }
-    }
-    footer {
-      font-size: 1.2vh;
-      #footer-copyright, #footer-left, #footer-right {
-        display: flex;
-        float: unset;
-        padding-left: 0;
-        padding-right: 0;
-        justify-content: center;
-        text-align: center;
-      }
-      #footer-left {
-        #footer-left-copyright {
-          display: none;
-        }
-      }
-      #footer-right {
-        padding-bottom: 20px;
-        li a img {
-          width: 2vh;
         }
       }
     }
