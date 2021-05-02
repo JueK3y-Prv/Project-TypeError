@@ -83,6 +83,16 @@ body {
       color: #CEDBF0;
       background: #737d8d;
     }
+    #de-closed {
+      padding-top: 34.7vh;
+      padding-bottom: 35vh;
+      h2 {
+        font-size: 3.2vh
+      }
+      p {
+        font-size: 2.7vh;
+      }
+    }
     p {
       color: var(--textColor);
       a {
