@@ -87,7 +87,8 @@ body main ::-moz-selection {
   background: #737d8d;
 }
 body main #de-closed {
-  padding-top: 34.7vh;
+  color: var(--textColor);
+  padding-top: 34.5vh;
   padding-bottom: 35vh;
 }
 body main #de-closed h2 {
