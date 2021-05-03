@@ -24,9 +24,9 @@ function lightIcon() {
     favICO.href = "/src/img/favicon/favicon.ico";
     img.src = "/src/img/Light-TypeError-Logo.png";
     
-    footerInst.src = "/src/img/Light-Instagram-64.svg";
+    footerInst.src = "/src/img/Light-Instagram-64.svg" alt="Das Instagram Logo. Hier geht's zum Instagram Konto von TypeError.";
     footerTwit.src = "/src/img/Light-Twitter-64.svg";
-    footerPay.src = "/src/img/Light-PayPal-64.svg";
+    footerPay.src = "/src/img/Light-PayPal-64.svg" alt="Das PayPal Logo. Für eine sichere Zahlungsabwicklung bieten wir auch PayPal an.";
 
     bag.setAttribute("data-custom-icon-url", "/src/img/Light-ShoppingBag-32.png")
 
