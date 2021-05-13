@@ -14,63 +14,74 @@ body .content {
       -ms-flex-align: center;
           align-items: center;
 }
+
 body .content ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
+
 body .content ::selection {
   color: #CEDBF0;
   background: #737d8d;
 }
+
 body .content ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
+
 body .content .page-1 p {
   position: relative;
-  font-family: "Content", "Times New Roman", Times, serif;
+  font-family: 'Content', 'Times New Roman', Times, serif;
   font-size: 3.5vh;
   text-align: center;
   color: var(--textColor);
 }
+
 body .content .page-1 p a {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: .2s;
+  transition: .2s;
   text-decoration: underline;
   -webkit-text-decoration-color: lightskyblue;
   text-decoration-color: lightskyblue;
   -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
 }
+
 body .content .page-1 p a:hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: .2s;
+  transition: .2s;
   color: var(--hoverColor);
 }
+
 body .content .page-2 {
   display: none;
   background-color: rgba(0, 0, 0, 0.247);
 }
+
 body .content .page-2 p {
   position: relative;
-  font-family: "Content-2", "Times New Roman", Times, serif;
+  font-family: 'Content-2', 'Times New Roman', Times, serif;
   font-size: 3.5vh;
   text-align: center;
 }
+
 body .content .page-2 p a {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: .2s;
+  transition: .2s;
   text-decoration: underline;
   -webkit-text-decoration-color: lightskyblue;
   text-decoration-color: #87cefa;
   -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
 }
+
 body .content .page-2 p a:hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: .2s;
+  transition: .2s;
   color: var(--hoverColor);
 }
+
 body a {
   text-decoration: none;
   color: var(--textColor);

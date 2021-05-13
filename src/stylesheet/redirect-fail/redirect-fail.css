@@ -1,8 +1,9 @@
 body .navigation h1:hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  opacity: 0.55;
+  -webkit-transition: .2s;
+  transition: .2s;
+  opacity: .55;
 }
+
 body .content {
   position: absolute;
   top: 0;
@@ -19,40 +20,47 @@ body .content {
       -ms-flex-align: center;
           align-items: center;
 }
+
 body .content ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
+
 body .content ::selection {
   color: #CEDBF0;
   background: #737d8d;
 }
+
 body .content ::-moz-selection {
   color: #CEDBF0;
   background: #737d8d;
 }
+
 body .content p {
   line-height: 4vh;
   position: relative;
-  font-family: "Content", "Times New Roman", Times, serif;
+  font-family: 'Content', 'Times New Roman', Times, serif;
   font-size: 3.3vh;
   text-align: center;
   color: var(--textColor);
 }
+
 body .content p a {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: .2s;
+  transition: .2s;
   text-decoration: underline;
   -webkit-text-decoration-color: lightskyblue;
   text-decoration-color: lightskyblue;
   -webkit-text-decoration-style: wavy;
   text-decoration-style: wavy;
 }
+
 body .content p a:hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: .2s;
+  transition: .2s;
   color: var(--hoverColor);
 }
+
 body a {
   text-decoration: none;
   color: var(--textColor);

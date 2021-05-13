@@ -15,7 +15,7 @@
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  font-family: "Jim Sans Regular", Arial;
+  font-family: 'Jim Sans Regular', Arial;
   font-size: 16px;
   line-height: 1.5em;
   -webkit-transition: opacity 1s ease;
@@ -29,7 +29,7 @@
 }
 
 .wpcc-transparency-5 {
-  opacity: 0.95;
+  opacity: .95;
 }
 
 .wpcc-pushdown-wrap {
@@ -65,10 +65,12 @@
   max-width: 22em;
   padding: 1.5em;
 }
+
 .wpcc-float .wpcc-message {
   display: block;
   margin-bottom: 1em;
 }
+
 .wpcc-float .wpcc-compliance {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
@@ -94,6 +96,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
 .wpcc-banner .wpcc-message {
   display: block;
   -webkit-box-flex: 1;
@@ -104,7 +107,7 @@
 }
 
 .wpcc-banner.wpcc-padding-small {
-  padding: 0.5em 0.5em 0.5em 1em;
+  padding: .5em .5em .5em 1em;
 }
 
 .wpcc-banner.wpcc-padding-large {
@@ -116,7 +119,7 @@
 }
 
 .wpcc-banner.wpcc-margin-small {
-  margin: 0.5em;
+  margin: .5em;
 }
 
 .wpcc-banner.wpcc-margin-large {
@@ -132,24 +135,26 @@
 }
 
 .wpcc-padding-none.wpcc-banner .wpcc-message {
-  margin: 0.8em 1em;
+  margin: .8em 1em;
 }
+
 .wpcc-padding-none.wpcc-banner .wpcc-btn {
   height: 100%;
-  padding: 0.9em 1.5em;
+  padding: .9em 1.5em;
 }
 
 .wpcc-btn {
   cursor: pointer;
   display: block;
-  font-size: 0.9em;
+  font-size: .9em;
   font-weight: 700;
-  padding: 0.4em 0.8em;
+  padding: .4em .8em;
   text-align: center;
   white-space: nowrap;
-  -webkit-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
+  -webkit-transition: background-color .2s ease;
+  transition: background-color .2s ease;
 }
+
 .wpcc-btn:hover {
   text-decoration: none;
 }
@@ -157,15 +162,18 @@
 .wpcc-privacy {
   cursor: pointer;
   display: inline-block;
-  opacity: 0.85;
+  opacity: .85;
   text-decoration: underline;
 }
+
 .wpcc-privacy:hover {
   opacity: 1;
 }
+
 .wpcc-privacy:active {
   color: initial;
 }
+
 .wpcc-privacy:visited {
   color: initial;
 }
@@ -179,7 +187,7 @@
 }
 
 .wpcc-top.wpcc-margin-small {
-  top: 0.5em;
+  top: .5em;
 }
 
 .wpcc-top.wpcc-margin-large {
@@ -195,7 +203,7 @@
 }
 
 .wpcc-left.wpcc-margin-small {
-  left: 0.5em;
+  left: .5em;
 }
 
 .wpcc-left.wpcc-margin-large {
@@ -211,7 +219,7 @@
 }
 
 .wpcc-right.wpcc-margin-small {
-  right: 0.5em;
+  right: .5em;
 }
 
 .wpcc-right.wpcc-margin-large {
@@ -227,7 +235,7 @@
 }
 
 .wpcc-bottom.wpcc-margin-small {
-  bottom: 0.5em;
+  bottom: .5em;
 }
 
 .wpcc-bottom.wpcc-margin-large {
@@ -276,15 +284,14 @@
     display: none;
   }
 }
+
 @media screen and (max-width: 414px) and (orientation: portrait) {
   .wpcc-top {
     top: 0 !important;
   }
-
   .wpcc-bottom {
     bottom: 0 !important;
   }
-
   .wpcc-banner {
     left: 0 !important;
     margin: 0 !important;
@@ -297,51 +304,43 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .wpcc-float {
     left: 0 !important;
     margin: 0 !important;
     right: 0 !important;
     max-width: none;
   }
-
   .wpcc-left {
     left: 0 !important;
     margin: 0 !important;
     right: 0 !important;
   }
-
   .wpcc-right {
     left: 0 !important;
     margin: 0 !important;
     right: 0 !important;
   }
-
   .wpcc-corners-round {
     border-radius: 0 !important;
   }
-
   .wpcc-message {
     margin-bottom: 1em;
   }
-
   .wpcc-banner.wpcc-padding-small {
-    padding: 0.5em;
+    padding: .5em;
   }
-
   .wpcc-padding-small .wpcc-message {
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
   }
 }
+
 @media screen and (max-width: 736px) and (orientation: landscape) {
   .wpcc-top {
     top: 0 !important;
   }
-
   .wpcc-bottom {
     bottom: 0 !important;
   }
-
   .wpcc-banner {
     left: 0 !important;
     margin: 0 !important;
@@ -354,40 +353,33 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .wpcc-float {
     left: 0 !important;
     margin: 0 !important;
     right: 0 !important;
     max-width: none;
   }
-
   .wpcc-left {
     left: 0 !important;
     margin: 0 !important;
     right: 0 !important;
   }
-
   .wpcc-right {
     left: 0 !important;
     margin: 0 !important;
     right: 0 !important;
   }
-
   .wpcc-corners-round {
     border-radius: 0 !important;
   }
-
   .wpcc-message {
     margin-bottom: 1em;
   }
-
   .wpcc-banner.wpcc-padding-small {
-    padding: 0.5em;
+    padding: .5em;
   }
-
   .wpcc-padding-small .wpcc-message {
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
   }
 }
 /*# sourceMappingURL=cookieBanner.css.map */

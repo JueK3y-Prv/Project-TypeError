@@ -422,6 +422,10 @@ body {
 }
 
 @media screen and (max-width: 540px) {
+  html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__counter {
+    top: 2px !important;
+    left: 10px !important;
+  }
   body {
     .desktop {
       display: none !important;
@@ -476,5 +480,11 @@ body {
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 413px) {
+  html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__counter {
+    display: block !important;
   }
 }

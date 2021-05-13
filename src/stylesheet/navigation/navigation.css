@@ -408,6 +408,12 @@ body footer #footer-right li a img:hover {
   }
 }
 @media screen and (max-width: 540px) {
+  html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__counter {
+    top: 3px !important;
+    left: 21px !important;
+    font-size: 8px !important;
+  }
+
   body .desktop {
     display: none !important;
   }
@@ -454,6 +460,14 @@ body footer #footer-right li a img:hover {
   }
   body .navigation input ~ nav > ul .mobile {
     padding: 7px;
+  }
+}
+@media screen and (max-width: 413px) {
+  html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__counter {
+    display: block !important;
+  }
+  html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__counter::after {
+    border-radius: 30px !important;
   }
 }
 /*# sourceMappingURL=navigation.css.map */
