@@ -94,6 +94,7 @@ html#ecwid_html body#ecwid_body .ec-size:not(.ec-size--s) .ec-store .form-contro
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 body {
@@ -465,9 +466,6 @@ body footer #footer-right li a img:hover {
 @media screen and (max-width: 413px) {
   html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__counter {
     display: block !important;
-  }
-  html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__counter::after {
-    border-radius: 30px !important;
   }
 }
 /*# sourceMappingURL=navigation.css.map */
