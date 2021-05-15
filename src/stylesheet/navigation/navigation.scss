@@ -105,6 +105,7 @@ html#ecwid_html body#ecwid_body {
     .form-control__text {
       color: var(--textColor);
       background-color: var(--banner);
+      color: black;
     }
   }
 }
@@ -423,8 +424,9 @@ body {
 
 @media screen and (max-width: 540px) {
   html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__counter {
-    top: 2px !important;
-    left: 10px !important;
+    top: 3px !important;
+    left: 21px !important;
+    font-size: 8px !important;
   }
   body {
     .desktop {
