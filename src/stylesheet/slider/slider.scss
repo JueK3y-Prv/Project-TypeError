@@ -6,8 +6,8 @@ body {
 .img-slider {
 	position: relative;
 	width: 100vw;
-	height: 110vh;
-	margin-top: 36.5vh;
+	height: 1220px;
+	margin-top: 100px;
 	.slide {
 		z-index: 1;
 		position: absolute;
@@ -16,7 +16,7 @@ body {
 		img {
 			z-index: 1;
 			width: 100%;
-			height: auto ;
+			height: auto;
 		}
 		.info {
 			position: absolute;
@@ -99,11 +99,11 @@ body {
 		}
 	}
 }
-@media (max-width: 820px) {
+@media (max-width: 1024px) {
 	.img-slider {
 		width: 100vw;
-		height: 43.5vh;
-		margin-top: -37vh;
+		height: auto;
+		margin-top: -585px;
 		.slide {
 			.info {
 				padding: 10px 25px;
@@ -117,7 +117,7 @@ body {
 			}
 		}
 		.navigation {
-			bottom: 25px;
+			bottom: -550px;
 			.btn {
 				width: 10px;
 				height: 10px;
@@ -126,52 +126,33 @@ body {
 		}
 	}
 }
-@media (max-width: 620px) {
+@media (max-width: 768px) {
 	.img-slider {
 		width: 100vw;
-		height: 43.5vh;
-		margin-top: -35.5vh;
-		.slide {
-			.info {
-				padding: 10px 20px;
-				h2 {
-					font-size: 30px;
-				}
-				p {
-					width: 80%;
-					font-size: 13px;
-				}
-			}
-		}
+		height: auto;
+		margin-top: -415px;
 		.navigation {
-			bottom: 15px;
-			.btn {
-				width: 8px;
-				height: 8px;
-				margin: 6px;
-			}
+			bottom: -420px;
+		}
+	}
+}
+@media (max-width: 540px) {
+	.img-slider {
+		width: 100vw;
+		height: auto;
+		margin-top: -285px;
+		.navigation {
+			bottom: -300px;
 		}
 	}
 }
 @media (max-width: 420px) {
 	.img-slider {
 		width: 100vw;
-		height: 28.5vh;
-		margin-top: -42vh;
-		.slide {
-			.info {
-				padding: 5px 10px;
-				h2 {
-					font-size: 25px;
-				}
-				p {
-					width: 90%;
-					font-size: 11px;
-				}
-			}
-		}
+		height: auto;
+		margin-top: -340px;
 		.navigation {
-			bottom: 10px;
+			bottom: -300px;
 		}
 	}
 }
