@@ -95,6 +95,7 @@ html#ecwid_html body#ecwid_body .ec-size:not(.ec-size--s) .ec-store .form-contro
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 body {
