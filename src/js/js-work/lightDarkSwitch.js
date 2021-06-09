@@ -1254,7 +1254,7 @@ else {
 }
 
 // Button Event Handlers
-// desktoptop
+// desktop
 lightButton.onclick = () => {
     localStorage.setItem("theme", "light");
     body.classList.replace("dark", "light");
@@ -1267,7 +1267,7 @@ darkButton.onclick = () => {
     darkIcon();
 };
 
-// mobileonsive
+// mobile
 mobileLightButton.onclick = () => {
     localStorage.setItem("theme", "dark");
     body.classList.replace("light", "dark");
