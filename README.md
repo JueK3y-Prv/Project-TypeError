@@ -39,7 +39,7 @@ The only working domain is [this one](https://type-error.netlify.app).
 
 ## The website only works incorrectly for me / I have found errors
 This may well occur in an unfinished website.
-<br>I would appreciate it if you would then open a [new issue](https://github.com/JueK3y/project-lvm/issues) so I can take care of the bug.
+<br>I would appreciate it if you would then open a [new issue](https://github.com/JueK3y-Prv/project-lvm/issues) so I can take care of the bug.
 <br>Thanks for your help!
 
 <br>
