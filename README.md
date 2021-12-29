@@ -1,3 +1,5 @@
+## This project is closed and remains online for archival purposes.
+
 # Project LVM | A website for the sale of shoes (online store)
 
 ###### _This is a closed project, which is created by the order of a client. The German copyright regulations apply._
@@ -38,9 +40,9 @@ The only working domain is [this one](https://type-error.netlify.app).
 <br>
 
 ## The website only works incorrectly for me / I have found errors
-This may well occur in an unfinished website.
-<br>I would appreciate it if you would then open a [new issue](https://github.com/JueK3y-Prv/project-lvm/issues) so I can take care of the bug.
-<br>Thanks for your help!
+<s>This may well occur in an unfinished website.
+<br>I would appreciate it if you would then open a [new issue]() so I can take care of the bug.
+<br>Thanks for your help!</s>
 
 <br>
 
